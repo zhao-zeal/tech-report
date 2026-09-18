@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img"><title>Ridge 分支：特征树与直接多步预测</title><rect width="1600" height="1000" fill="white"/>
+<g aria-label="(b)  Ridge 分支：特征树与直接多步预测">
+<text x="45.000" y="60.450" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="35.000" font-weight="700" fill="#222C38">(b)  Ridge 分支：特征树与直接多步预测</text>
+</g>
+<g aria-label="70 + 21 + 5 + 9 + 5 + 31 + 4 + 1 = 146 维；同一城市的 28 个步长共用一组回归参数。">
+<text x="45.000" y="102.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">70 + 21 + 5 + 9 + 5 + 31 + 4 + 1 = 146 维；同一城市的 28 个步长共用一组回归参数。</text>
+</g>
+<polyline points="45,122 1555,122" fill="none" stroke="#D9DEE4" stroke-width="1.3" stroke-linejoin="round"/>
+<polyline points="800,309 800,245" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="800.00,245.00 795.20,255.00 804.80,255.00" fill="#386D9F"/>
+<polyline points="800,471 800,409" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="800.00,409.00 795.20,419.00 804.80,419.00" fill="#386D9F"/>
+<polyline points="190,627 190,566" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="570,627 570,566" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1020,627 1020,566" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1400,627 1400,566" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="190,566 1400,566" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="800,566 800,533" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="800.00,533.00 795.20,543.00 804.80,543.00" fill="#386D9F"/>
+<rect x="55.0" y="627" width="270" height="88" rx="8" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="日历特征">
+<text x="138.000" y="664.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#386D9F">日历特征</text>
+</g>
+<g aria-label="70 维">
+<text x="161.500" y="700.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#627080">70 维</text>
+</g>
+<polyline points="190,790 190,715" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="190.00,715.00 185.20,725.00 194.80,725.00" fill="#386D9F"/>
+<rect x="350.0" y="627" width="440" height="88" rx="8" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="气象及衍生特征">
+<text x="479.000" y="664.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#386D9F">气象及衍生特征</text>
+</g>
+<g aria-label="40 维">
+<text x="541.500" y="700.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#627080">40 维</text>
+</g>
+<polyline points="570,790 570,715" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="570.00,715.00 565.20,725.00 574.80,725.00" fill="#386D9F"/>
+<rect x="830.0" y="627" width="380" height="88" rx="8" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="历史负荷特征">
+<text x="942.000" y="664.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#386D9F">历史负荷特征</text>
+</g>
+<g aria-label="31 维">
+<text x="991.500" y="700.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#627080">31 维</text>
+</g>
+<polyline points="1020,790 1020,715" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1020.00,715.00 1015.20,725.00 1024.80,725.00" fill="#386D9F"/>
+<rect x="1260.0" y="627" width="280" height="88" rx="8" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="跨城信息与步长">
+<text x="1309.000" y="664.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#386D9F">跨城信息与步长</text>
+</g>
+<g aria-label="5 维">
+<text x="1378.250" y="700.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#627080">5 维</text>
+</g>
+<polyline points="1400,790 1400,715" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1400.00,715.00 1395.20,725.00 1404.80,725.00" fill="#386D9F"/>
+<rect x="465.0" y="157" width="670" height="88" rx="8" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="R：未来 28 日直接预测">
+<text x="647.250" y="195.730" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29.000" font-weight="700" fill="#386D9F">R：未来 28 日直接预测</text>
+</g>
+<g aria-label="h = 0, …, 27；预测值不反馈">
+<text x="648.750" y="232.380" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24.000" font-weight="400" fill="#627080">h = 0, …, 27；预测值不反馈</text>
+</g>
+<rect x="397.5" y="309" width="805" height="100" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="标准化 → Ridge → 指数逆变换">
+<text x="602.250" y="353.360" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28.000" font-weight="700" fill="#386D9F">标准化 → Ridge → 指数逆变换</text>
+</g>
+<g aria-label="z = (x − μ) / σ      R = 10^{b + βᵀz} × s">
+<text x="601.250" y="390.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="400" fill="#627080">z = (x − μ) / σ      R = 10</text>
+<text x="890.750" y="382.160" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="18.000" font-weight="400" fill="#627080">b + β</text>
+<text x="937.750" y="375.576" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="11.880" font-weight="400" fill="#627080">T</text>
+<text x="944.750" y="382.160" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="18.000" font-weight="400" fill="#627080">z</text>
+<text x="953.750" y="390.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="400" fill="#627080"> × s</text>
+</g>
+<circle cx="800" cy="502" r="31" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.7"/>
+<g aria-label="∥">
+<text x="789.000" y="512.100" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30.000" font-weight="400" fill="#386D9F">∥</text>
+</g>
+<g aria-label="拼接 146 维">
+<text x="873.750" y="505.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#386D9F">拼接 146 维</text>
+</g>
+<rect x="55.0" y="809" width="270" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="周期与假期">
+<text x="132.500" y="844.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#386D9F">周期与假期</text>
+</g>
+<g aria-label="年、月、周、节假日">
+<text x="95.500" y="877.270" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21.000" font-weight="400" fill="#627080">年、月、周、节假日</text>
+</g>
+<polyline points="190,809 190,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="395,790 746,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="395,809 395,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="341.0" y="809" width="108" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="基础气象">
+<text x="355.000" y="842.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="700" fill="#386D9F">基础气象</text>
+</g>
+<g aria-label="21 维">
+<text x="367.750" y="876.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">21 维</text>
+</g>
+<polyline points="512,809 512,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="458.0" y="809" width="108" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="温湿指数">
+<text x="472.000" y="842.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="700" fill="#386D9F">温湿指数</text>
+</g>
+<g aria-label="5 维">
+<text x="491.250" y="876.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">5 维</text>
+</g>
+<polyline points="629,809 629,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="575.0" y="809" width="108" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="交互项">
+<text x="599.000" y="842.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="700" fill="#386D9F">交互项</text>
+</g>
+<g aria-label="9 维">
+<text x="608.250" y="876.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">9 维</text>
+</g>
+<polyline points="746,809 746,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="692.0" y="809" width="108" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="持续性">
+<text x="716.000" y="842.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="700" fill="#386D9F">持续性</text>
+</g>
+<g aria-label="5 维">
+<text x="725.250" y="876.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">5 维</text>
+</g>
+<polyline points="882,790 1158,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="882,809 882,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="820.0" y="809" width="124" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="滞后值">
+<text x="850.500" y="843.270" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21.000" font-weight="700" fill="#386D9F">滞后值</text>
+</g>
+<g aria-label="14 维">
+<text x="854.750" y="877.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">14 维</text>
+</g>
+<polyline points="1020,809 1020,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="958.0" y="809" width="124" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="滚动统计">
+<text x="978.000" y="843.270" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21.000" font-weight="700" fill="#386D9F">滚动统计</text>
+</g>
+<g aria-label="6 维">
+<text x="999.250" y="877.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">6 维</text>
+</g>
+<polyline points="1158,809 1158,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1096.0" y="809" width="124" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="周期变化">
+<text x="1116.000" y="843.270" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21.000" font-weight="700" fill="#386D9F">周期变化</text>
+</g>
+<g aria-label="11 维">
+<text x="1130.750" y="877.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">11 维</text>
+</g>
+<polyline points="1322,790 1478,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1322,809 1322,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1253.5" y="809" width="137" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="跨城市">
+<text x="1287.500" y="844.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#386D9F">跨城市</text>
+</g>
+<g aria-label="4 维">
+<text x="1301.250" y="878.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">4 维</text>
+</g>
+<polyline points="1478,809 1478,790" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1409.5" y="809" width="137" height="85" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="预测步长">
+<text x="1432.000" y="844.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#386D9F">预测步长</text>
+</g>
+<g aria-label="1 维">
+<text x="1457.250" y="878.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">1 维</text>
+</g>
+<polyline points="45,926 1555,926" fill="none" stroke="#D9DEE4" stroke-width="1.1" stroke-linejoin="round"/>
+<g aria-label="训练目标为 log10(电量)，α = 30；s 为训练残差的指数均值，用于返回原始电量尺度时的偏差修正。">
+<text x="45.000" y="960.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">训练目标为 log10(电量)，α = 30；s 为训练残差的指数均值，用于返回原始电量尺度时的偏差修正。</text>
+</g>
+<g aria-label="每个预测起点固定历史负荷与跨城特征；日历、气象及步长随目标日期变化。跨城特征不意味着跨城共享模型。">
+<text x="45.000" y="988.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">每个预测起点固定历史负荷与跨城特征；日历、气象及步长随目标日期变化。跨城特征不意味着跨城共享模型。</text>
+</g>
+</svg>

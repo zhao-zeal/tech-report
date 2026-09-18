@@ -1,0 +1,1949 @@
+{
+  "files": [
+    {
+      "column_stats": {
+        "CITY_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 3024,
+          "text_max": "city_9",
+          "text_min": "city_1"
+        },
+        "COUNTY_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 3024,
+          "text_max": "city_9_c4",
+          "text_min": "city_10_c1"
+        },
+        "DDATETIME": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 3024,
+          "text_max": "2026-01-31 20:00:00",
+          "text_min": "2026-01-31 20:00:00"
+        },
+        "PRECIPITATION": {
+          "kind": "numeric",
+          "max": 2.7,
+          "mean": 0.11519970414201203,
+          "min": 0.0,
+          "missing": 320,
+          "non_missing": 2704,
+          "text_max": "2.70",
+          "text_min": "0.00"
+        },
+        "PREDICTION_TIME": {
+          "kind": "numeric",
+          "max": 168.0,
+          "mean": 85.5,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 3024,
+          "text_max": "99",
+          "text_min": "102"
+        },
+        "PROVINCE_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 3024,
+          "text_max": "prov_5",
+          "text_min": "prov_1"
+        },
+        "RHUM": {
+          "kind": "numeric",
+          "max": 100.0,
+          "mean": 70.43713017751479,
+          "min": 10.0,
+          "missing": 320,
+          "non_missing": 2704,
+          "text_max": "99",
+          "text_min": "10"
+        },
+        "TEM": {
+          "kind": "numeric",
+          "max": 28.7,
+          "mean": 13.529017264276263,
+          "min": 1.0,
+          "missing": 12,
+          "non_missing": 3012,
+          "text_max": "9.9",
+          "text_min": "1.0"
+        },
+        "TEM_MAX": {
+          "kind": "numeric",
+          "max": 9999.0,
+          "mean": 45.03174603174603,
+          "min": 4.0,
+          "missing": 2646,
+          "non_missing": 378,
+          "text_max": "9999.0",
+          "text_min": "10.0"
+        },
+        "TEM_MIN": {
+          "kind": "numeric",
+          "max": 20.0,
+          "mean": 8.663492063492061,
+          "min": 0.0,
+          "missing": 2646,
+          "non_missing": 378,
+          "text_max": "9.0",
+          "text_min": "0.0"
+        }
+      },
+      "columns": 10,
+      "delimiter": "comma",
+      "duplicate_rows": 5,
+      "header": [
+        "DDATETIME",
+        "PREDICTION_TIME",
+        "TEM",
+        "TEM_MAX",
+        "TEM_MIN",
+        "PRECIPITATION",
+        "RHUM",
+        "PROVINCE_ID",
+        "CITY_ID",
+        "COUNTY_ID"
+      ],
+      "missing_cells": 5944,
+      "path": "city_load_forecasting/test_data/weather_data/city_1_7_weather_forecast_data.csv",
+      "rows": 3024,
+      "semantic_sha256": "cebefb32db9c547243b73859ea7fa4f66010b8dd012154c67ad3e358ce8bbf63"
+    },
+    {
+      "column_stats": {
+        "BATCH_TIME": {
+          "kind": "numeric",
+          "max": 2026020108.0,
+          "mean": 2026020108.0,
+          "min": 2026020108.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "2026020108",
+          "text_min": "2026020108"
+        },
+        "CITY_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "city_9",
+          "text_min": "city_1"
+        },
+        "COUNTY_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "city_9_c4",
+          "text_min": "city_10_c1"
+        },
+        "FILE_BATCH": {
+          "kind": "numeric",
+          "max": 2026020108.0,
+          "mean": 2026020108.0,
+          "min": 2026020108.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "2026020108",
+          "text_min": "2026020108"
+        },
+        "FILE_BEGIN_TIME": {
+          "kind": "numeric",
+          "max": 2026021608.0,
+          "mean": 2026021608.0,
+          "min": 2026021608.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "2026021608",
+          "text_min": "2026021608"
+        },
+        "FILE_END_TIME": {
+          "kind": "numeric",
+          "max": 2026031708.0,
+          "mean": 2026031708.0,
+          "min": 2026031708.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "2026031708",
+          "text_min": "2026031708"
+        },
+        "MAX_TEMP16": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 21.830188679245282,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "29",
+          "text_min": "11"
+        },
+        "MAX_TEMP17": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 20.754716981132077,
+          "min": 10.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "30",
+          "text_min": "10"
+        },
+        "MAX_TEMP18": {
+          "kind": "numeric",
+          "max": 28.0,
+          "mean": 18.9811320754717,
+          "min": 8.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "8",
+          "text_min": "10"
+        },
+        "MAX_TEMP19": {
+          "kind": "numeric",
+          "max": 27.0,
+          "mean": 17.50943396226415,
+          "min": 6.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP20": {
+          "kind": "numeric",
+          "max": 28.0,
+          "mean": 17.641509433962263,
+          "min": 7.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP21": {
+          "kind": "numeric",
+          "max": 28.0,
+          "mean": 18.92452830188679,
+          "min": 9.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP22": {
+          "kind": "numeric",
+          "max": 27.0,
+          "mean": 17.547169811320753,
+          "min": 6.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP23": {
+          "kind": "numeric",
+          "max": 28.0,
+          "mean": 18.358490566037737,
+          "min": 9.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP24": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 19.264150943396228,
+          "min": 9.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP25": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 20.62264150943396,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "29",
+          "text_min": "11"
+        },
+        "MAX_TEMP26": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 21.88679245283019,
+          "min": 12.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "29",
+          "text_min": "12"
+        },
+        "MAX_TEMP27": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 21.433962264150942,
+          "min": 10.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "29",
+          "text_min": "10"
+        },
+        "MAX_TEMP28": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 20.49056603773585,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "29",
+          "text_min": "11"
+        },
+        "MAX_TEMP29": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 20.641509433962263,
+          "min": 10.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "30",
+          "text_min": "10"
+        },
+        "MAX_TEMP30": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 21.943396226415093,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "30",
+          "text_min": "11"
+        },
+        "MAX_TEMP31": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 21.660377358490567,
+          "min": 9.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "11"
+        },
+        "MAX_TEMP32": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 21.09433962264151,
+          "min": 9.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "11"
+        },
+        "MAX_TEMP33": {
+          "kind": "numeric",
+          "max": 31.0,
+          "mean": 21.849056603773583,
+          "min": 10.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "31",
+          "text_min": "10"
+        },
+        "MAX_TEMP34": {
+          "kind": "numeric",
+          "max": 31.0,
+          "mean": 22.71698113207547,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "31",
+          "text_min": "11"
+        },
+        "MAX_TEMP35": {
+          "kind": "numeric",
+          "max": 31.0,
+          "mean": 22.60377358490566,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "31",
+          "text_min": "11"
+        },
+        "MAX_TEMP36": {
+          "kind": "numeric",
+          "max": 31.0,
+          "mean": 22.849056603773583,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "31",
+          "text_min": "11"
+        },
+        "MAX_TEMP37": {
+          "kind": "numeric",
+          "max": 31.0,
+          "mean": 21.339622641509433,
+          "min": 9.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "11"
+        },
+        "MAX_TEMP38": {
+          "kind": "numeric",
+          "max": 31.0,
+          "mean": 20.0,
+          "min": 9.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP39": {
+          "kind": "numeric",
+          "max": 31.0,
+          "mean": 18.660377358490567,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "31",
+          "text_min": "11"
+        },
+        "MAX_TEMP40": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 18.37735849056604,
+          "min": 7.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP41": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 17.037735849056602,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP42": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 17.641509433962263,
+          "min": 5.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "11"
+        },
+        "MAX_TEMP43": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 18.566037735849058,
+          "min": 7.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP44": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 19.28301886792453,
+          "min": 9.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP45": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 20.62264150943396,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "30",
+          "text_min": "11"
+        },
+        "MIN_TEMP16": {
+          "kind": "numeric",
+          "max": 20.0,
+          "mean": 10.415094339622641,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "0"
+        },
+        "MIN_TEMP17": {
+          "kind": "numeric",
+          "max": 20.0,
+          "mean": 9.981132075471699,
+          "min": 1.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "1"
+        },
+        "MIN_TEMP18": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 9.622641509433961,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP19": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 8.735849056603774,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP20": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 8.471698113207546,
+          "min": 2.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP21": {
+          "kind": "numeric",
+          "max": 18.0,
+          "mean": 8.69811320754717,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP22": {
+          "kind": "numeric",
+          "max": 18.0,
+          "mean": 8.39622641509434,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP23": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 8.679245283018869,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP24": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 9.471698113207546,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP25": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 10.39622641509434,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP26": {
+          "kind": "numeric",
+          "max": 20.0,
+          "mean": 11.283018867924529,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP27": {
+          "kind": "numeric",
+          "max": 20.0,
+          "mean": 11.60377358490566,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP28": {
+          "kind": "numeric",
+          "max": 20.0,
+          "mean": 11.169811320754716,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP29": {
+          "kind": "numeric",
+          "max": 20.0,
+          "mean": 11.377358490566039,
+          "min": 5.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP30": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 11.924528301886792,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP31": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 11.452830188679245,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP32": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 11.452830188679245,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP33": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 11.867924528301886,
+          "min": 5.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP34": {
+          "kind": "numeric",
+          "max": 22.0,
+          "mean": 12.056603773584905,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP35": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 12.30188679245283,
+          "min": 5.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP36": {
+          "kind": "numeric",
+          "max": 22.0,
+          "mean": 12.037735849056604,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP37": {
+          "kind": "numeric",
+          "max": 22.0,
+          "mean": 11.226415094339623,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP38": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 10.49056603773585,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP39": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 9.88679245283019,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP40": {
+          "kind": "numeric",
+          "max": 22.0,
+          "mean": 9.547169811320755,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP41": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 9.075471698113208,
+          "min": 2.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP42": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 9.18867924528302,
+          "min": 2.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP43": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 9.735849056603774,
+          "min": 3.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP44": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 11.056603773584905,
+          "min": 5.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MIN_TEMP45": {
+          "kind": "numeric",
+          "max": 21.0,
+          "mean": 12.018867924528301,
+          "min": 6.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "PROVINCE_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "prov_5",
+          "text_min": "prov_1"
+        },
+        "WEEK16": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周一",
+          "text_min": "周一"
+        },
+        "WEEK17": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周二",
+          "text_min": "周二"
+        },
+        "WEEK18": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周三",
+          "text_min": "周三"
+        },
+        "WEEK19": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周四",
+          "text_min": "周四"
+        },
+        "WEEK20": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周五",
+          "text_min": "周五"
+        },
+        "WEEK21": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周六",
+          "text_min": "周六"
+        },
+        "WEEK22": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周日",
+          "text_min": "周日"
+        },
+        "WEEK23": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周一",
+          "text_min": "周一"
+        },
+        "WEEK24": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周二",
+          "text_min": "周二"
+        },
+        "WEEK25": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周三",
+          "text_min": "周三"
+        },
+        "WEEK26": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周四",
+          "text_min": "周四"
+        },
+        "WEEK27": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周五",
+          "text_min": "周五"
+        },
+        "WEEK28": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周六",
+          "text_min": "周六"
+        },
+        "WEEK29": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周日",
+          "text_min": "周日"
+        },
+        "WEEK30": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周一",
+          "text_min": "周一"
+        },
+        "WEEK31": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周二",
+          "text_min": "周二"
+        },
+        "WEEK32": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周三",
+          "text_min": "周三"
+        },
+        "WEEK33": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周四",
+          "text_min": "周四"
+        },
+        "WEEK34": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周五",
+          "text_min": "周五"
+        },
+        "WEEK35": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周六",
+          "text_min": "周六"
+        },
+        "WEEK36": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周日",
+          "text_min": "周日"
+        },
+        "WEEK37": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周一",
+          "text_min": "周一"
+        },
+        "WEEK38": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周二",
+          "text_min": "周二"
+        },
+        "WEEK39": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周三",
+          "text_min": "周三"
+        },
+        "WEEK40": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周四",
+          "text_min": "周四"
+        },
+        "WEEK41": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周五",
+          "text_min": "周五"
+        },
+        "WEEK42": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周六",
+          "text_min": "周六"
+        },
+        "WEEK43": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周日",
+          "text_min": "周日"
+        },
+        "WEEK44": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周一",
+          "text_min": "周一"
+        },
+        "WEEK45": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周二",
+          "text_min": "周二"
+        }
+      },
+      "columns": 97,
+      "delimiter": "comma",
+      "duplicate_rows": 2,
+      "header": [
+        "FILE_BATCH",
+        "FILE_BEGIN_TIME",
+        "FILE_END_TIME",
+        "BATCH_TIME",
+        "WEEK16",
+        "MAX_TEMP16",
+        "MIN_TEMP16",
+        "WEEK17",
+        "MAX_TEMP17",
+        "MIN_TEMP17",
+        "WEEK18",
+        "MAX_TEMP18",
+        "MIN_TEMP18",
+        "WEEK19",
+        "MAX_TEMP19",
+        "MIN_TEMP19",
+        "WEEK20",
+        "MAX_TEMP20",
+        "MIN_TEMP20",
+        "WEEK21",
+        "MAX_TEMP21",
+        "MIN_TEMP21",
+        "WEEK22",
+        "MAX_TEMP22",
+        "MIN_TEMP22",
+        "WEEK23",
+        "MAX_TEMP23",
+        "MIN_TEMP23",
+        "WEEK24",
+        "MAX_TEMP24",
+        "MIN_TEMP24",
+        "WEEK25",
+        "MAX_TEMP25",
+        "MIN_TEMP25",
+        "WEEK26",
+        "MAX_TEMP26",
+        "MIN_TEMP26",
+        "WEEK27",
+        "MAX_TEMP27",
+        "MIN_TEMP27",
+        "WEEK28",
+        "MAX_TEMP28",
+        "MIN_TEMP28",
+        "WEEK29",
+        "MAX_TEMP29",
+        "MIN_TEMP29",
+        "WEEK30",
+        "MAX_TEMP30",
+        "MIN_TEMP30",
+        "WEEK31",
+        "MAX_TEMP31",
+        "MIN_TEMP31",
+        "WEEK32",
+        "MAX_TEMP32",
+        "MIN_TEMP32",
+        "WEEK33",
+        "MAX_TEMP33",
+        "MIN_TEMP33",
+        "WEEK34",
+        "MAX_TEMP34",
+        "MIN_TEMP34",
+        "WEEK35",
+        "MAX_TEMP35",
+        "MIN_TEMP35",
+        "WEEK36",
+        "MAX_TEMP36",
+        "MIN_TEMP36",
+        "WEEK37",
+        "MAX_TEMP37",
+        "MIN_TEMP37",
+        "WEEK38",
+        "MAX_TEMP38",
+        "MIN_TEMP38",
+        "WEEK39",
+        "MAX_TEMP39",
+        "MIN_TEMP39",
+        "WEEK40",
+        "MAX_TEMP40",
+        "MIN_TEMP40",
+        "WEEK41",
+        "MAX_TEMP41",
+        "MIN_TEMP41",
+        "WEEK42",
+        "MAX_TEMP42",
+        "MIN_TEMP42",
+        "WEEK43",
+        "MAX_TEMP43",
+        "MIN_TEMP43",
+        "WEEK44",
+        "MAX_TEMP44",
+        "MIN_TEMP44",
+        "WEEK45",
+        "MAX_TEMP45",
+        "MIN_TEMP45",
+        "CITY_ID",
+        "PROVINCE_ID",
+        "COUNTY_ID"
+      ],
+      "missing_cells": 0,
+      "path": "city_load_forecasting/test_data/weather_data/city_16_45_weather_forecast_data.csv",
+      "rows": 53,
+      "semantic_sha256": "5ffe9ded0a9cef56caecee1b36dbf6c2f4ff712b428ce52ad4c64cbde67deb33"
+    },
+    {
+      "column_stats": {
+        "BATCH_TIME": {
+          "kind": "numeric",
+          "max": 2026020108.0,
+          "mean": 2026020108.0,
+          "min": 2026020108.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "2026020108",
+          "text_min": "2026020108"
+        },
+        "CITY_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "city_9",
+          "text_min": "city_1"
+        },
+        "COUNTY_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "city_9_c4",
+          "text_min": "city_10_c1"
+        },
+        "FILE_BATCH": {
+          "kind": "numeric",
+          "max": 2026020108.0,
+          "mean": 2026020108.0,
+          "min": 2026020108.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "2026020108",
+          "text_min": "2026020108"
+        },
+        "FILE_BEGIN_TIME": {
+          "kind": "numeric",
+          "max": 2026020808.0,
+          "mean": 2026020808.0,
+          "min": 2026020808.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "2026020808",
+          "text_min": "2026020808"
+        },
+        "FILE_END_TIME": {
+          "kind": "numeric",
+          "max": 2026021508.0,
+          "mean": 2026021508.0,
+          "min": 2026021508.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "2026021508",
+          "text_min": "2026021508"
+        },
+        "MAX_TEMP10": {
+          "kind": "numeric",
+          "max": 26.0,
+          "mean": 18.07547169811321,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "26",
+          "text_min": "11"
+        },
+        "MAX_TEMP11": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 20.056603773584907,
+          "min": 11.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "30",
+          "text_min": "11"
+        },
+        "MAX_TEMP12": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 20.71698113207547,
+          "min": 10.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "29",
+          "text_min": "10"
+        },
+        "MAX_TEMP13": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 20.62264150943396,
+          "min": 7.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP14": {
+          "kind": "numeric",
+          "max": 30.0,
+          "mean": 17.943396226415093,
+          "min": 4.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "7",
+          "text_min": "11"
+        },
+        "MAX_TEMP15": {
+          "kind": "numeric",
+          "max": 29.0,
+          "mean": 16.41509433962264,
+          "min": 2.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "10"
+        },
+        "MAX_TEMP8": {
+          "kind": "numeric",
+          "max": 26.0,
+          "mean": 15.132075471698114,
+          "min": 5.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "8",
+          "text_min": "10"
+        },
+        "MAX_TEMP9": {
+          "kind": "numeric",
+          "max": 25.0,
+          "mean": 16.849056603773583,
+          "min": 7.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "11"
+        },
+        "MIN_TEMP10": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 7.037735849056604,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "0"
+        },
+        "MIN_TEMP11": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 8.0,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "0"
+        },
+        "MIN_TEMP12": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 9.547169811320755,
+          "min": 1.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "8",
+          "text_min": "1"
+        },
+        "MIN_TEMP13": {
+          "kind": "numeric",
+          "max": 20.0,
+          "mean": 8.132075471698114,
+          "min": -2.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "8",
+          "text_min": "\t-1"
+        },
+        "MIN_TEMP14": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 7.528301886792453,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "0"
+        },
+        "MIN_TEMP15": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 7.528301886792453,
+          "min": 1.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "1"
+        },
+        "MIN_TEMP8": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 5.886792452830188,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "0"
+        },
+        "MIN_TEMP9": {
+          "kind": "numeric",
+          "max": 19.0,
+          "mean": 6.150943396226415,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "9",
+          "text_min": "0"
+        },
+        "PROVINCE_ID": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "prov_5",
+          "text_min": "prov_1"
+        },
+        "WEEK10": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周二",
+          "text_min": "周二"
+        },
+        "WEEK11": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周三",
+          "text_min": "周三"
+        },
+        "WEEK12": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周四",
+          "text_min": "周四"
+        },
+        "WEEK13": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周五",
+          "text_min": "周五"
+        },
+        "WEEK14": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周六",
+          "text_min": "周六"
+        },
+        "WEEK15": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周日",
+          "text_min": "周日"
+        },
+        "WEEK8": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周日",
+          "text_min": "周日"
+        },
+        "WEEK9": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 53,
+          "text_max": "周一",
+          "text_min": "周一"
+        }
+      },
+      "columns": 31,
+      "delimiter": "comma",
+      "duplicate_rows": 2,
+      "header": [
+        "FILE_BATCH",
+        "FILE_BEGIN_TIME",
+        "FILE_END_TIME",
+        "BATCH_TIME",
+        "WEEK8",
+        "MAX_TEMP8",
+        "MIN_TEMP8",
+        "WEEK9",
+        "MAX_TEMP9",
+        "MIN_TEMP9",
+        "WEEK10",
+        "MAX_TEMP10",
+        "MIN_TEMP10",
+        "WEEK11",
+        "MAX_TEMP11",
+        "MIN_TEMP11",
+        "WEEK12",
+        "MAX_TEMP12",
+        "MIN_TEMP12",
+        "WEEK13",
+        "MAX_TEMP13",
+        "MIN_TEMP13",
+        "WEEK14",
+        "MAX_TEMP14",
+        "MIN_TEMP14",
+        "WEEK15",
+        "MAX_TEMP15",
+        "MIN_TEMP15",
+        "CITY_ID",
+        "PROVINCE_ID",
+        "COUNTY_ID"
+      ],
+      "missing_cells": 0,
+      "path": "city_load_forecasting/test_data/weather_data/city_8_15_weather_forecast_data.csv",
+      "rows": 53,
+      "semantic_sha256": "e84e6ecfd4ca20f4562528d457d67413147c441d0e7f15371c8d33251e7aae19"
+    },
+    {
+      "column_stats": {
+        "city_id": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 293020,
+          "text_max": "city_9",
+          "text_min": "city_1"
+        },
+        "date": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 293020,
+          "text_max": "2026-01-31",
+          "text_min": "2023-01-01"
+        },
+        "industry_id": {
+          "kind": "numeric",
+          "max": 26.0,
+          "mean": 13.5,
+          "min": 1.0,
+          "missing": 0,
+          "non_missing": 293020,
+          "text_max": "9",
+          "text_min": "1"
+        },
+        "industry_name": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 293020,
+          "text_max": "（二）制造业",
+          "text_min": "31.金属制品、机械和设备修理业"
+        },
+        "load": {
+          "kind": "numeric",
+          "max": 2.0,
+          "mean": 0.09479732896858126,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 293020,
+          "text_max": "9.999343659873085e-05",
+          "text_min": "0.0"
+        },
+        "province_id": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 293020,
+          "text_max": "prov_5",
+          "text_min": "prov_1"
+        }
+      },
+      "columns": 6,
+      "delimiter": "comma",
+      "duplicate_rows": 0,
+      "header": [
+        "province_id",
+        "city_id",
+        "industry_id",
+        "industry_name",
+        "date",
+        "load"
+      ],
+      "missing_cells": 0,
+      "path": "city_load_forecasting/train_data/load_data/city_load_train.csv",
+      "rows": 293020,
+      "semantic_sha256": "9392ae68aa95045f55e4b6787bda4fd5cf558aba9e68be51e8a0d0ffec3671fb"
+    },
+    {
+      "column_stats": {
+        "date": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "2025-10-31",
+          "text_min": "2025-10-01"
+        },
+        "pre_mean": {
+          "kind": "numeric",
+          "max": 150.3306770324707,
+          "mean": 14.825566502688622,
+          "min": 0.003838713397271931,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "99.1608174641927",
+          "text_min": "0.003838713397271931"
+        },
+        "pre_sum": {
+          "kind": "numeric",
+          "max": 3607.936248779297,
+          "mean": 355.81359606452673,
+          "min": 0.09212912153452635,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "997.3825149536133",
+          "text_min": "0.09212912153452635"
+        },
+        "rain_hours": {
+          "kind": "numeric",
+          "max": 24.0,
+          "mean": 22.96057347670251,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9.0",
+          "text_min": "0.0"
+        },
+        "rhu_mean": {
+          "kind": "numeric",
+          "max": 96.57697741190593,
+          "mean": 79.27909958576214,
+          "min": 46.00729036331177,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "96.57697741190593",
+          "text_min": "46.00729036331177"
+        },
+        "sr_hours_above_mean": {
+          "kind": "numeric",
+          "max": 13.0,
+          "mean": 9.200716845878135,
+          "min": 7.0,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9.0",
+          "text_min": "10.0"
+        },
+        "sr_hours_above_mean_ratio": {
+          "kind": "numeric",
+          "max": 0.5416666666666666,
+          "mean": 0.3833632019115887,
+          "min": 0.2916666666666667,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "0.5416666666666666",
+          "text_min": "0.2916666666666667"
+        },
+        "sr_mean": {
+          "kind": "numeric",
+          "max": 286.1322997252767,
+          "mean": 176.84772643106797,
+          "min": 36.33020908137163,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "96.01041791960597",
+          "text_min": "104.394794434309"
+        },
+        "sr_peak": {
+          "kind": "numeric",
+          "max": 902.6500244140625,
+          "mean": 609.467036749727,
+          "min": 128.27499389648438,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "902.6500244140625",
+          "text_min": "128.27499389648438"
+        },
+        "sr_range": {
+          "kind": "numeric",
+          "max": 902.6500244140625,
+          "mean": 609.4760869291267,
+          "min": 128.27499389648438,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "902.6500244140625",
+          "text_min": "128.27499389648438"
+        },
+        "sr_std": {
+          "kind": "numeric",
+          "max": 328.2137771235078,
+          "mean": 214.9767349822016,
+          "min": 38.92152534649203,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "99.695981862742",
+          "text_min": "101.74327490406766"
+        },
+        "sr_total": {
+          "kind": "numeric",
+          "max": 6867.1751934066415,
+          "mean": 4244.345434345632,
+          "min": 871.925017952919,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "982.3500097095966",
+          "text_min": "1079.575020968914"
+        },
+        "swddif_mean": {
+          "kind": "numeric",
+          "max": 113.3354184826215,
+          "mean": 71.77401580984437,
+          "min": 35.47812654574712,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "99.76666895548503",
+          "text_min": "100.37395886021356"
+        },
+        "swddif_peak": {
+          "kind": "numeric",
+          "max": 360.875,
+          "mean": 234.35780071955855,
+          "min": 116.57499694824219,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "360.875",
+          "text_min": "116.57499694824219"
+        },
+        "swddif_range": {
+          "kind": "numeric",
+          "max": 360.875,
+          "mean": 234.3736609349755,
+          "min": 116.6749969497323,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "360.875",
+          "text_min": "116.6749969497323"
+        },
+        "swddif_std": {
+          "kind": "numeric",
+          "max": 126.57445512424427,
+          "mean": 82.57708822952581,
+          "min": 38.68174848914441,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "99.97921008260131",
+          "text_min": "100.16048036679457"
+        },
+        "swddif_total": {
+          "kind": "numeric",
+          "max": 2720.0500435829163,
+          "mean": 1722.5763794362651,
+          "min": 851.4750370979309,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "992.6000122055411",
+          "text_min": "1035.3000162988901"
+        },
+        "swddir_mean": {
+          "kind": "numeric",
+          "max": 234.8104212284088,
+          "mean": 105.04075808253381,
+          "min": 0.443750008319815,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "99.85729458928108",
+          "text_min": "0.443750008319815"
+        },
+        "swddir_peak": {
+          "kind": "numeric",
+          "max": 780.1500244140625,
+          "mean": 404.10395290304683,
+          "min": 1.6750000715255737,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "99.0",
+          "text_min": "1.6750000715255737"
+        },
+        "swddir_range": {
+          "kind": "numeric",
+          "max": 780.1500244140625,
+          "mean": 404.1133615054177,
+          "min": 1.6750000715255737,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "99.0",
+          "text_min": "1.6750000715255737"
+        },
+        "swddir_std": {
+          "kind": "numeric",
+          "max": 278.14434343218517,
+          "mean": 137.36718589441367,
+          "min": 0.5886624245820054,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "99.91276113662462",
+          "text_min": "0.5886624245820054"
+        },
+        "swddir_total": {
+          "kind": "numeric",
+          "max": 5635.4501094818115,
+          "mean": 2520.9781939808117,
+          "min": 10.65000019967556,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "983.3250313997269",
+          "text_min": "10.65000019967556"
+        },
+        "ta_id": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "ta_9",
+          "text_min": "ta_1"
+        },
+        "tcc_mean": {
+          "kind": "numeric",
+          "max": 1.0,
+          "mean": 0.6082724646808831,
+          "min": 0.036041665628241994,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "1.0",
+          "text_min": "0.036041665628241994"
+        },
+        "tcc_peak": {
+          "kind": "numeric",
+          "max": 1.0,
+          "mean": 0.87784049133887,
+          "min": 0.1274999976158142,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "1.0",
+          "text_min": "0.1274999976158142"
+        },
+        "tcc_range": {
+          "kind": "numeric",
+          "max": 1.0,
+          "mean": 0.6006272356493205,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "1.0",
+          "text_min": "0.0"
+        },
+        "tcc_std": {
+          "kind": "numeric",
+          "max": 0.44031533622705576,
+          "mean": 0.19389129214255277,
+          "min": 0.0,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "0.44031533622705576",
+          "text_min": "0.0"
+        },
+        "tcc_weighted_mean": {
+          "kind": "numeric",
+          "max": 1.0,
+          "mean": 0.621409382686898,
+          "min": 0.042737026298864576,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "1.0",
+          "text_min": "0.042737026298864576"
+        },
+        "temp_high_sr_mean": {
+          "kind": "numeric",
+          "max": 33.54850044250488,
+          "mean": 24.619456488274558,
+          "min": 8.918333371480307,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9.56374990940094",
+          "text_min": "10.029444270663792"
+        },
+        "temp_high_sr_peak": {
+          "kind": "numeric",
+          "max": 35.51750183105469,
+          "mean": 26.184031736038918,
+          "min": 9.487500190734863,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9.487500190734863",
+          "text_min": "10.010000228881836"
+        },
+        "temp_mean": {
+          "kind": "numeric",
+          "max": 30.02468752861023,
+          "mean": 22.21849748680954,
+          "min": 8.573854148387909,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9.85322896639506",
+          "text_min": "10.071770469347635"
+        },
+        "temp_peak": {
+          "kind": "numeric",
+          "max": 35.51750183105469,
+          "mean": 26.194739632281777,
+          "min": 9.487500190734863,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9.487500190734863",
+          "text_min": "10.010000228881836"
+        },
+        "temp_range": {
+          "kind": "numeric",
+          "max": 11.464999198913574,
+          "mean": 6.8196146240371105,
+          "min": 0.8875007629394531,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9.970001220703125",
+          "text_min": "0.8875007629394531"
+        },
+        "temp_std": {
+          "kind": "numeric",
+          "max": 4.023570952436036,
+          "mean": 2.287238918536976,
+          "min": 0.2545749164351844,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "4.023570952436036",
+          "text_min": "0.2545749164351844"
+        },
+        "vis_mean": {
+          "kind": "numeric",
+          "max": 26028.927083333332,
+          "mean": 13231.895198626045,
+          "min": 2959.9166666666665,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9974.53125",
+          "text_min": "10007.447916666666"
+        },
+        "ws_mean": {
+          "kind": "numeric",
+          "max": 17.46260392665863,
+          "mean": 4.316788285202932,
+          "min": 1.1697916543732088,
+          "missing": 0,
+          "non_missing": 279,
+          "text_max": "9.568229019641876",
+          "text_min": "1.1697916543732088"
+        }
+      },
+      "columns": 36,
+      "delimiter": "comma",
+      "duplicate_rows": 0,
+      "header": [
+        "ta_id",
+        "date",
+        "temp_mean",
+        "rhu_mean",
+        "pre_mean",
+        "pre_sum",
+        "rain_hours",
+        "vis_mean",
+        "ws_mean",
+        "sr_total",
+        "sr_hours_above_mean",
+        "sr_hours_above_mean_ratio",
+        "tcc_weighted_mean",
+        "swddir_total",
+        "swddif_total",
+        "temp_high_sr_mean",
+        "temp_high_sr_peak",
+        "temp_peak",
+        "temp_std",
+        "temp_range",
+        "sr_mean",
+        "sr_peak",
+        "sr_std",
+        "sr_range",
+        "tcc_mean",
+        "tcc_peak",
+        "tcc_std",
+        "tcc_range",
+        "swddir_mean",
+        "swddir_peak",
+        "swddir_std",
+        "swddir_range",
+        "swddif_mean",
+        "swddif_peak",
+        "swddif_std",
+        "swddif_range"
+      ],
+      "missing_cells": 0,
+      "path": "pv_load_forecasting/test_data/weather_data/pv_weather_cache.csv",
+      "rows": 279,
+      "semantic_sha256": "e653a7010f9a62f053b0a4b7d54dcecbbc774f8cc40aa58ef174599bc06e5ea7"
+    },
+    {
+      "column_stats": {
+        "date": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 36500,
+          "text_max": "2025-09-30",
+          "text_min": "2024-10-01"
+        },
+        "installed_capacity": {
+          "kind": "numeric",
+          "max": 60.0,
+          "mean": 16.163000000000206,
+          "min": 3.52,
+          "missing": 0,
+          "non_missing": 36500,
+          "text_max": "7.65",
+          "text_min": "10.0"
+        },
+        "load": {
+          "kind": "numeric",
+          "max": 2.0,
+          "mean": 0.26892367581989896,
+          "min": 0.0,
+          "missing": 181,
+          "non_missing": 36319,
+          "text_max": "5.5928411633109614e-05",
+          "text_min": "0.0"
+        },
+        "pv_id": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 36500,
+          "text_max": "pv_99",
+          "text_min": "pv_1"
+        },
+        "ta_id": {
+          "kind": "text",
+          "missing": 0,
+          "non_missing": 36500,
+          "text_max": "ta_9",
+          "text_min": "ta_1"
+        }
+      },
+      "columns": 5,
+      "delimiter": "comma",
+      "duplicate_rows": 0,
+      "header": [
+        "pv_id",
+        "ta_id",
+        "date",
+        "load",
+        "installed_capacity"
+      ],
+      "missing_cells": 181,
+      "path": "pv_load_forecasting/train_data/load_data/pv_load_train.csv",
+      "rows": 36500,
+      "semantic_sha256": "183b146320d547737110841d82d59a63afc7c6b15b738212c00b8042de845202"
+    }
+  ],
+  "format_version": 1,
+  "root_name": "datasets",
+  "target_count": 6
+}

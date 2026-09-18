@@ -1,0 +1,162 @@
+新型电力系统下电能量预测算法开发赛道
+模型封装打包指引
+编写日期:2026年8月
+前言
+赛题：
+新型电力系统下电能量预测
+应用分类：
+时间序列预测
+评估说明：
+模型评估方式：提交测试数据集、模型权重和模型推理代码，由平台评估系统运行评估
+打包格式：tar
+打包大小：不超过5GB
+评估时长：不超过1小时
+推理超时：无
+评估数据集：同比赛数据集一起给到参赛队伍
+计算框架：
+PaddlePaddle
+MindSpore
+PaddlePaddle计算框架
+说明
+（1）用户可以按照自己的需求封装模型，按照平台提供的代码封装规则进行封装和打包。
+支持镜像
+ai-base/kunlun2_paddlepaddle_xpu_261_py310_jl0820:station-train-notebook-x86_img-ardnaje3px9hx7a7
+打包步骤
+用户需要在自己的模型代码工程目录，添加中以下文件：
+（上述文件存放在NoteBook环境 
+可通过如下命令拷贝到本地:
+cp -r /home/bml/storage/aifs/public/jiliangzhongxin_saima2026.tar ./
+解压jiliangzhongxin_saima2026.tar:
+tar xf jiliangzhongxin_saima2026.tar
+predict.py为模型初始化和推理的统一标准类，用户根据文件中内容提示完成Predictor类的封装。 
+*请注意：由于评估要求，以往比赛的predict.py不再支持，需满足以下版本才能进行评估，否则出现异常（参考predict.py开头）
+# version:2024.8.8 
+# 2024.8月以后竞赛必须使用该版本
+运行本地模型测试：
+测试predict.py：
+修改predict.py最下方__main__函数，执行python predict.py查看输出和内容格式是否正常。正常输出格式如下：
+df_pv_detect_result：
+输出字段说明
+df_ta_detect_result：
+输出字段说明
+df_city_detect_result：
+输出字段说明
+4、压缩成tar包(必选)
+用户先将测试数据集、代码和模型打包到一个文件夹下，打包文件夹建议命名为submit_202xxxx，注意检查模型路径等写成【相对路径】防止运行过程中报错。打包文件夹内容参考如下图，其中predict.py位于打包文件夹下一层目录:
+*注意：
+1.文件夹命名仅为【建议】，以上所示文件夹仅为【示例】
+2.评估系统的镜像支持的pypi库请参考开发机原始python环境【pip list】
+3.如需安装基础环境缺少的第三方库，请在predict.py同级新建文件夹【pkgs】将需要安装的第三方库安装文件放在此文件夹一起打包，参考下方【温馨提示】。
+4.打包应带上模型推理所需测试数据集
+5.文件夹名应为英文，不能出现空格等特殊字符
+在Notebook打开终端并使用以下命令对模型文件夹进行打包：
+打包脚本路径：
+/home/bml/storage/aifs/public/tar_model_dir.py
+拷贝打包脚本到Notebook：
+cp /home/bml/storage/aifs/public/tar_model_dir.py ./
+用法:
+python3 tar_model_dir.py /your/path/to/project
+示例:
+python3 tar_model_dir.py /home/project/submit_202x
+正常提示:
+[Info] 打包正常:[/home/project/submit_202x_0001.tar]
+由于该打包文件存放在Notebook中，需要上传到人工智能平台创建模型才能提交模型评估，请参考《新型电力系统下电能量预测算法开发赛道 - 平台操作手册》-模型封装阶段和模型评估阶段。
+*温馨提示：
+如果【一键评估】提示缺少第三方库，请参考上述打包注意【3】.将需要安装的第三方库安装文件放在文件夹【pkgs】一起打包重新上传，评估程序将自动安装这些第三方库再运行评估程序。
+MindSpore计算框架
+说明
+（1）用户可以按照自己的需求封装模型，按照平台提供的代码封装规则进行封装和打包。
+支持镜像
+ms272_torch251_cann851_py310_ubuntu:260804
+打包步骤
+用户需要在自己的模型代码工程目录，添加中以下文件：
+（上述文件存放在NoteBook环境 
+可通过如下命令拷贝到本地:
+cp -r /home/nfs/appnfs/public/jiliangzhongxin_saima2026.tar ./ 
+解压jiliangzhongxin_saima2026.tar:
+tar xf jiliangzhongxin_saima2026.tar
+predict.py为模型初始化和推理的统一标准类，用户根据文件中内容提示完成Predictor类的封装。 
+*请注意：由于评估要求，以往比赛的predict.py不再支持，需满足以下版本才能进行评估，否则出现异常（参考predict.py开头）
+# version:2024.8.8 
+# 2024.8月以后竞赛必须使用该版本
+运行本地模型测试：
+测试predict.py：
+修改predict.py最下方__main__函数，执行python predict.py查看输出和内容格式是否正常。正常输出格式如下：
+df_pv_detect_result：
+输出字段说明
+df_ta_detect_result：
+输出字段说明
+df_city_detect_result：
+输出字段说明
+4、压缩成tar包(必选)
+用户先将测试数据集、代码和模型打包到一个文件夹下，打包文件夹建议命名为submit_202xxxx，注意检查模型路径等写成【相对路径】防止运行过程中报错。打包文件夹内容参考如下图，其中predict.py位于打包文件夹下一层目录:
+*注意：
+1.文件夹命名仅为【建议】，以上所示文件夹仅为【示例】
+2.评估系统的镜像支持的pypi库请参考开发机原始python环境【pip list】
+3.如需安装基础环境缺少的第三方库，请在predict.py同级新建文件夹【pkgs】将需要安装的第三方库安装文件放在此文件夹一起打包，参考下方【温馨提示】。
+4.打包应带上模型推理所需测试数据集
+5.文件夹名应为英文，不能出现空格等特殊字符
+在Notebook打开终端并使用以下命令对模型文件夹进行打包：
+打包脚本路径：
+/home/nfs/appnfs/public/tar_model_dir.py
+拷贝打包脚本到Notebook：
+cp /home/nfs/appnfs/public/tar_model_dir.py ./
+用法:
+python3 tar_model_dir.py /your/path/to/project
+示例:
+python3 tar_model_dir.py /home/project/submit_202x
+正常提示:
+[Info] 打包正常:[/home/project/submit_202x_0001.tar]
+由于该打包文件存放在Notebook中，需要上传到人工智能平台创建模型才能提交模型评估，请参考《新型电力系统下电能量预测算法开发赛道 - 平台操作手册》-模型封装阶段和模型评估阶段。
+*温馨提示：
+1.如果【一键评估】提示缺少第三方库，请参考上述打包注意【3】.将需要安装的第三方库安装文件放在文件夹【pkgs】一起打包重新上传，评估程序将自动安装这些第三方库再运行评估程序。
+
+[TABLE 1]
+文件	文件说明	备注
+predict.py	预测接口	必选
+pv_example.csv	光伏用户预测示例	可选
+ta_example.csv	台区预测示例	可选
+city_example.csv	地市预测示例	可选
+
+[TABLE 2]
+字段	类型	字段说明
+pv_id	object	光伏用户id
+date	object	预测天, "yy/MM/dd"
+pred	float64	发电量预测值
+
+[TABLE 3]
+字段	类型	字段说明
+ta_id	object	台区id
+date	object	预测天, "yy/MM/dd"
+pred	float64	用电量预测值
+
+[TABLE 4]
+字段	类型	字段说明
+city_id	object	地市id
+date	object	预测天, "yy/MM/dd"
+pred	float64	用电量预测值
+
+[TABLE 5]
+文件	文件说明	备注
+predict.py	预测接口	必选
+pv_example.csv	光伏用户预测示例	可选
+ta_example.csv	台区预测示例	可选
+city_example.csv	地市预测示例	可选
+
+[TABLE 6]
+字段	类型	字段说明
+pv_id	object	光伏用户id
+date	object	预测天, "yy/MM/dd"
+pred	float64	发电量预测值
+
+[TABLE 7]
+字段	类型	字段说明
+ta_id	object	台区id
+date	object	预测天, "yy/MM/dd"
+pred	float64	用电量预测值
+
+[TABLE 8]
+字段	类型	字段说明
+city_id	object	地市id
+date	object	预测天, "yy-MM-dd"
+pred	float64	用电量预测值

@@ -1,0 +1,163 @@
+新型电力系统下电能量预测算法开发赛道Baseline运行指南
+2026年08月
+1. 登录比赛平台
+（1）访问焕新社区智慧电力专区平台地址：https://ai.csg.cn/#/main/home，点击登录按钮；
+（2）务必选择支付宝扫码扫码、手机号验证码二次验证的方式登录平台；
+（3）成功登录后，点击旧社区菜单即可跳转至赛事平台。
+2. 创建并启动NoteBook环境
+（1）进入首页-我的赛事-赛事详情-赛事工作台-NoteBook；
+（2）选择对应框架的比赛镜像，点击“创建NoteBook”按钮，系统创建并启动NoteBook。（注意：Notebook启动一般需要几分钟的时间，请选手耐心等待，本次赛事每支队伍提供一张算力卡，仅可以创建一个NoteBook工作台）
+（3）启动完成后点击“查看Notebook”进入开发环境。
+3. 获取比赛数据集
+根据赛事方提供的比赛数据集公共存储路径，将比赛数据集拷贝到自己的NoteBook开发环境中并解压。
+4. 获取赛题Baseline文件
+根据赛事方提供的赛题Baseline文件公共存储路径，将Baseline文件拷贝到自己的NoteBook开发环境中并解压。
+5. 模型训练及推理测试
+根据赛事方提供的Baseline模型文件，开展模型训练和推理脚本测试。
+6. 模型封装打包
+（1）创建模型文件夹，将测试数据集、模型权重文件、推理脚本代码复制到该文件夹下。如需安装基础环境缺少的第三方库，请在predict.py同级新建文件夹【pkgs】将需要安装的第三方库的安装文件放在此文件夹。
+（2）根据赛事方提供的打包脚本文件存储路径，将其拷贝到自己的NoteBook开发环境中，利用该脚本打包模型文件夹。
+7. 模型上传及挂载
+（1）利用模型上传脚本将NoteBook中已经封装训练好的模型上传至后台，执行完脚本后会返回一个挂载路径。
+不同框架上传脚本内容如下：
+PaddlePaddle框架
+MindSpore框架
+（2）在我的模型-模型文件中，基于返回的挂载路径更新模型版本信息，将模型文件以版本的形式保存在模型仓库中，用以进行后续的模型评估。
+8. 模型评估
+方式一：
+（1）进入首页-我的赛事-赛事详情-赛事工作台-我的模型-模型文件；
+（2）点击“一键评估”按钮，在弹窗选择模型版本以及运行镜像后点击“一键评估”按钮，启动评估任务成功；
+（3）进入我的模型-评估记录，可查看评估任务的运行状态。
+方式二：
+（1）进入首页-我的赛事-赛事详情-赛事工作台-我的模型-评估记录；
+（2）点击“一键评估”按钮，在弹窗选择模型版本以及运行镜像后点击“一键评估”按钮，启动评估任务成功；
+（3）进入我的模型-评估记录，可查看评估任务的运行状态。
+9. 查看评估结果
+（1）进入首页-我的赛事-赛事详情-赛事工作台-我的模型-评估记录；
+（2）查看完成状态的评估任务详情；
+（3）查看错误状态的评估任务详情。
+10. 查看比赛排名及详细评分结果
+（1）进入首页-我的赛事-赛事详情-排行榜；
+（2）查看比赛排名，比赛排名按得分倒序排序，可查看所有参赛选手及本人的排名、提交次数及得分；
+（3）查看本团队历史提交得分情况及每次得分详情。
+
+[TABLE 1]
+框架	镜像名称
+PaddlePaddle	ai-base/kunlun2_paddlepaddle_xpu_261_py310_jl0820:station-train-notebook-x86_img-ardnaje3px9hx7a7
+MindSpore	ms272_torch251_cann851_py310_ubuntu:260804
+
+[TABLE 2]
+```bash
+# PaddlePaddle框架
+cp -r /home/bml/storage/aifs/public/datasets.zip ./
+unzip datasets.zip
+rm datasets.zip
+
+# MindSpore框架
+cp -r /home/nfs/appnfs/public/datasets.zip ./
+unzip datasets.zip
+rm datasets.zip
+```
+
+[TABLE 3]
+```bash
+# PaddlePaddle框架
+cp -r /home/bml/storage/aifs/public/Baseline.zip ./ 
+unzip Baseline.zip 
+rm Baseline.zip
+
+# MindSpore框架
+cp -r /home/nfs/appnfs/public/Baseline.zip ./ 
+unzip Baseline.zip 
+rm Baseline.zip
+``` 
+
+[TABLE 4]
+```bash
+# 安装相关依赖包
+pip install chinesecalendar -i http://admin:Ljydmm123%40@10.90.218.163:8081/repository/pypi/simple --trusted-host 10.90.218.163
+pip install cmdstanpy==1.2.5 -i http://admin:Ljydmm123%40@10.90.218.163:8081/repository/pypi/simple --trusted-host 10.90.218.163
+# 训练模型
+python train.py
+# 拷贝推理脚本封装模板
+# PaddlePaddle框架
+cp -r /home/bml/storage/aifs/public/jiliangzhongxin_saima2026.tar ./
+# MindSpore框架
+cp -r /home/nfs/appnfs/public/jiliangzhongxin_saima2026.tar ./
+# 解压即可得到predict.py模板文件，按照文件要求封装自己的推理脚本
+tar xf jiliangzhongxin_saima2026.tar
+# 推理脚本测试
+python predict.py
+```
+
+[TABLE 5]
+```bash
+# 如下示例说明
+# 创建提交文件夹
+mkdir -p submit_202608271628
+
+# 将测试数据集、模型权重文件、推理脚本代码复制到该文件夹下
+# 复制测试数据集
+mkdir -p submit_202608271628/datasets
+cp -r datasets/city_load_forecasting submit_202608271628/datasets/
+cp -r datasets/ta_load_forecasting submit_202608271628/datasets/
+mkdir -p submit_202608271628/datasets/pv_load_forecasting/train_data/load_data
+cp -r datasets/pv_load_forecasting/train_data/load_data/pv_load_train.csv submit_202608271628/datasets/pv_load_forecasting/train_data/load_data/
+mkdir -p submit_202608271628/datasets/pv_load_forecasting/train_data/weather_data/
+cp -r datasets/pv_load_forecasting/train_data/weather_data/pv_weather_cache.csv submit_202608271628/datasets/pv_load_forecasting/train_data/weather_data/
+mkdir -p submit_202608271628/datasets/pv_load_forecasting/test_data/weather_data/
+cp -r datasets/pv_load_forecasting/test_data/weather_data/pv_weather_cache.csv submit_202608271628/datasets/pv_load_forecasting/test_data/weather_data/
+# 复制模型权重文件
+cp -r model/ submit_202608271628/
+# 复制推理脚本代码
+cp -r utils/ submit_202608271628/
+cp -r predict.py submit_202608271628/
+
+# 下载依赖包（两种方式）
+# 方式一：使用download下载
+pip download chinesecalendar --no-deps -d ./pkgs -i http://admin:Ljydmm123%40@10.90.218.163:8081/repository/pypi/simple --trusted-host 10.90.218.163
+pip download cmdstanpy==1.2.5 --no-deps -d ./pkgs -i http://admin:Ljydmm123%40@10.90.218.163:8081/repository/pypi/simple --trusted-host 10.90.218.163
+# 方式二：使用wheel下载
+pip wheel chinesecalendar --no-deps -w ./pkgs -i http://admin:Ljydmm123%40@10.90.218.163:8081/repository/pypi/simple --trusted-host 10.90.218.163
+pip wheel cmdstanpy==1.2.5 --no-deps -w ./pkgs -i http://admin:Ljydmm123%40@10.90.218.163:8081/repository/pypi/simple --trusted-host 10.90.218.163
+```
+
+[TABLE 6]
+```bash
+# 拷贝打包脚本
+# PaddlePaddle框架
+cp /home/bml/storage/aifs/public/tar_model_dir.py ./
+# MindSpore框架
+cp /home/nfs/appnfs/public/tar_model_dir.py ./ 
+# 打包模型文件夹，最后加的路径为步骤（1）创建的模型文件夹相对路径
+python tar_model_dir.py 模型文件夹路径
+```
+
+[TABLE 7]
+```bash
+# 创建并编辑模型上传脚本文件upload_model.py
+touch upload_model.py
+vim upload_model.py
+# 执行上传脚本，记录上传成功返回的模型挂载路径
+python upload_model.py
+```
+
+[TABLE 8]
+```bash
+import sys
+sys.path.append("/home/bml/storage/aifs/public/data_gaixc")
+import DataGaixc
+#需要上传的模型文件的本地地址
+file_path="XXX.tar"	    # 待挂载的文件路径
+DataGaixc.UploadModel(file_path)
+```
+
+[TABLE 9]
+```bash
+import sys
+sys.path.append("/home/nfs/appnfs/public/data_gaixc") 
+import DataGaixc 
+#模型目录 
+filePath="XXX.tar"    # 待挂载的文件路径
+DataGaixc.UploadModel(filePath)
+```

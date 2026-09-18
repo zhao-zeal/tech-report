@@ -1,0 +1,631 @@
+{
+  "load": {
+    "shape": [
+      36500,
+      5
+    ],
+    "columns": [
+      "pv_id",
+      "ta_id",
+      "date",
+      "load",
+      "installed_capacity"
+    ],
+    "head": [
+      {
+        "pv_id": "pv_100",
+        "ta_id": "ta_4",
+        "date": "2024-10-01",
+        "load": 0.0971476510067114,
+        "installed_capacity": 4.0
+      },
+      {
+        "pv_id": "pv_100",
+        "ta_id": "ta_4",
+        "date": "2024-10-02",
+        "load": 0.1179530201342281,
+        "installed_capacity": 4.0
+      },
+      {
+        "pv_id": "pv_100",
+        "ta_id": "ta_4",
+        "date": "2024-10-03",
+        "load": 0.1156599552572706,
+        "installed_capacity": 4.0
+      }
+    ],
+    "pv_count": 100,
+    "ta_count": 9,
+    "date_min": "2024-10-01",
+    "date_max": "2025-09-30",
+    "duplicate_pv_date": 0,
+    "missing_by_column": {
+      "pv_id": 0,
+      "ta_id": 0,
+      "date": 0,
+      "load": 181,
+      "installed_capacity": 0
+    },
+    "negative_load": 0,
+    "zero_load": 112,
+    "pv_ta_pairs": 100,
+    "pv_with_multiple_ta": 0,
+    "mapping": [
+      {
+        "pv_id": "pv_1",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_10",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_100",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_11",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_12",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_13",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_14",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_15",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_16",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_17",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_18",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_19",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_2",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_20",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_21",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_22",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_23",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_24",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_25",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_26",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_27",
+        "ta_id": "ta_2"
+      },
+      {
+        "pv_id": "pv_28",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_29",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_3",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_30",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_31",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_32",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_33",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_34",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_35",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_36",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_37",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_38",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_39",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_4",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_40",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_41",
+        "ta_id": "ta_3"
+      },
+      {
+        "pv_id": "pv_42",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_43",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_44",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_45",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_46",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_47",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_48",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_49",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_5",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_50",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_51",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_52",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_53",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_54",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_55",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_56",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_57",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_58",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_59",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_6",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_60",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_61",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_62",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_63",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_64",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_65",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_66",
+        "ta_id": "ta_8"
+      },
+      {
+        "pv_id": "pv_67",
+        "ta_id": "ta_7"
+      },
+      {
+        "pv_id": "pv_68",
+        "ta_id": "ta_7"
+      },
+      {
+        "pv_id": "pv_69",
+        "ta_id": "ta_7"
+      },
+      {
+        "pv_id": "pv_7",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_70",
+        "ta_id": "ta_7"
+      },
+      {
+        "pv_id": "pv_71",
+        "ta_id": "ta_7"
+      },
+      {
+        "pv_id": "pv_72",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_73",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_74",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_75",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_76",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_77",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_78",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_79",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_8",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_80",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_81",
+        "ta_id": "ta_9"
+      },
+      {
+        "pv_id": "pv_82",
+        "ta_id": "ta_5"
+      },
+      {
+        "pv_id": "pv_83",
+        "ta_id": "ta_1"
+      },
+      {
+        "pv_id": "pv_84",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_85",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_86",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_87",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_88",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_89",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_9",
+        "ta_id": "ta_6"
+      },
+      {
+        "pv_id": "pv_90",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_91",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_92",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_93",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_94",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_95",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_96",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_97",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_98",
+        "ta_id": "ta_4"
+      },
+      {
+        "pv_id": "pv_99",
+        "ta_id": "ta_4"
+      }
+    ]
+  },
+  "train_weather": {
+    "shape": [
+      78840,
+      12
+    ],
+    "columns": [
+      "ta_id",
+      "datetime",
+      "TEM",
+      "RHU",
+      "PRE_15m",
+      "PRE_acc",
+      "SR",
+      "TCC",
+      "SWDDIR",
+      "SWDDIF",
+      "VIS",
+      "WS"
+    ],
+    "head": [
+      {
+        "ta_id": "ta_1",
+        "datetime": "2024-10-01 00:00:00",
+        "TEM": 25.137499809265137,
+        "RHU": 96.99499893188477,
+        "PRE_15m": 0.0,
+        "PRE_acc": 1.5899999737739563,
+        "SR": 0.0,
+        "TCC": 0.8899999856948853,
+        "SWDDIR": 0.0,
+        "SWDDIF": 0.0,
+        "VIS": 13609.25,
+        "WS": 1.0799999833106997
+      },
+      {
+        "ta_id": "ta_1",
+        "datetime": "2024-10-01 01:00:00",
+        "TEM": 24.517499446868896,
+        "RHU": 97.8249969482422,
+        "PRE_15m": 0.0,
+        "PRE_acc": 1.5899999737739563,
+        "SR": 0.0,
+        "TCC": 0.8524999618530273,
+        "SWDDIR": 0.0,
+        "SWDDIF": 0.0,
+        "VIS": 13607.25,
+        "WS": 0.5549999848008156
+      },
+      {
+        "ta_id": "ta_1",
+        "datetime": "2024-10-01 02:00:00",
+        "TEM": 24.38499975204468,
+        "RHU": 98.21999740600586,
+        "PRE_15m": 0.0,
+        "PRE_acc": 1.5899999737739563,
+        "SR": 0.0,
+        "TCC": 0.8649999797344208,
+        "SWDDIR": 0.0,
+        "SWDDIF": 0.0,
+        "VIS": 11440.25,
+        "WS": 1.137499988079071
+      }
+    ],
+    "ta_count": 9,
+    "datetime_min": "2024-10-01 00:00:00",
+    "datetime_max": "2025-09-30 23:00:00",
+    "duplicate_ta_datetime": 0,
+    "sentinel_9999": {
+      "TEM": 0,
+      "RHU": 0,
+      "PRE_15m": 0,
+      "PRE_acc": 0,
+      "SR": 0,
+      "TCC": 0,
+      "SWDDIR": 0,
+      "SWDDIF": 0,
+      "VIS": 1,
+      "WS": 0
+    },
+    "missing_by_column": {
+      "ta_id": 0,
+      "datetime": 0,
+      "TEM": 0,
+      "RHU": 0,
+      "PRE_15m": 0,
+      "PRE_acc": 0,
+      "SR": 0,
+      "TCC": 0,
+      "SWDDIR": 0,
+      "SWDDIF": 0,
+      "VIS": 0,
+      "WS": 0
+    }
+  },
+  "test_weather": {
+    "shape": [
+      6696,
+      12
+    ],
+    "columns": [
+      "ta_id",
+      "datetime",
+      "TEM",
+      "RHU",
+      "PRE_15m",
+      "PRE_acc",
+      "SR",
+      "TCC",
+      "SWDDIR",
+      "SWDDIF",
+      "VIS",
+      "WS"
+    ],
+    "head": [
+      {
+        "ta_id": "ta_1",
+        "datetime": "2025-10-01 00:00:00",
+        "TEM": 24.08999919891357,
+        "RHU": 95.18249893188477,
+        "PRE_15m": 0.0,
+        "PRE_acc": 2.314789593219757,
+        "SR": 0.0,
+        "TCC": 1.0,
+        "SWDDIR": 0.0,
+        "SWDDIF": 0.0,
+        "VIS": 11565.75,
+        "WS": 5.334999918937683
+      },
+      {
+        "ta_id": "ta_1",
+        "datetime": "2025-10-01 01:00:00",
+        "TEM": 23.924999713897705,
+        "RHU": 95.66249656677246,
+        "PRE_15m": 0.0,
+        "PRE_acc": 2.314789593219757,
+        "SR": 0.0,
+        "TCC": 0.9899999499320984,
+        "SWDDIR": 0.0,
+        "SWDDIF": 0.0,
+        "VIS": 11459.5,
+        "WS": 5.104999899864197
+      },
+      {
+        "ta_id": "ta_1",
+        "datetime": "2025-10-01 02:00:00",
+        "TEM": 23.649999618530277,
+        "RHU": 96.22249794006348,
+        "PRE_15m": 0.0,
+        "PRE_acc": 2.314789593219757,
+        "SR": 0.0,
+        "TCC": 0.9724999666213988,
+        "SWDDIR": 0.0,
+        "SWDDIF": 0.0,
+        "VIS": 10731.0,
+        "WS": 5.034999847412109
+      }
+    ],
+    "ta_count": 9,
+    "datetime_min": "2025-10-01 00:00:00",
+    "datetime_max": "2025-10-31 23:00:00",
+    "missing_by_column": {
+      "ta_id": 0,
+      "datetime": 0,
+      "TEM": 0,
+      "RHU": 0,
+      "PRE_15m": 0,
+      "PRE_acc": 0,
+      "SR": 0,
+      "TCC": 0,
+      "SWDDIR": 0,
+      "SWDDIF": 0,
+      "VIS": 0,
+      "WS": 0
+    }
+  }
+}

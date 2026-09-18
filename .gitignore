@@ -1,0 +1,13 @@
+# temp
+tmp/
+
+# datasets
+submission/datasets/
+
+# python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/

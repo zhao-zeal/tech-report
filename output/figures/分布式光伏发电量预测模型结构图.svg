@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1700" viewBox="0 0 1200 1700">
+  <defs>
+    <style>
+      .t{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#172433}
+      .h{font-size:34px;font-weight:700}
+      .m{font-size:28px;font-weight:700}
+      .s{font-size:23px;fill:#405266}
+      .box{fill:#f8fbfd;stroke:#9fb4c8;stroke-width:2}
+      .blue{fill:#edf4fa;stroke:#7da5c6;stroke-width:2.5}
+      .teal{fill:#edf8f6;stroke:#6aa99f;stroke-width:2.5}
+      .mix{fill:#e7f0f7;stroke:#557fa4;stroke-width:2.5}
+      .out{fill:#f3f6f8;stroke:#8799a9;stroke-width:2.5}
+      .a{stroke:#66839d;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .at{stroke:#4d9187;stroke-width:3;fill:none;marker-end:url(#arrowTeal)}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#66839d" />
+    </marker>
+    <marker id="arrowTeal" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4d9187" />
+    </marker>
+  </defs>
+  <rect width="1200" height="1700" fill="#ffffff" />
+
+  <text x="600" y="58" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="34px" font-weight="700">分布式光伏发电量双分支融合模型</text>
+
+  <rect x="70" y="100" width="250" height="120" rx="18" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="195" y="145" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">历史发电量</text>
+  <text x="195" y="180" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">100 个光伏用户日尺度</text>
+  <rect x="340" y="100" width="250" height="120" rx="18" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="465" y="145" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">历史气象</text>
+  <text x="465" y="180" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">9 个区域小时观测</text>
+  <rect x="610" y="100" width="250" height="120" rx="18" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="735" y="145" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">未来预报</text>
+  <text x="735" y="180" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">2025 年 10 月小时气象</text>
+  <rect x="880" y="100" width="250" height="120" rx="18" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="1005" y="145" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">用户区域映射</text>
+  <text x="1005" y="180" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">pv_id 到 ta_id</text>
+
+  <path d="M195 220 V275 H600" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <path d="M465 220 V275 H600" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <path d="M735 220 V275 H600" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <path d="M1005 220 V275 H600" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <rect x="100" y="285" width="1000" height="175" rx="20" fill="#f3f6f8" stroke="#8799a9" stroke-width="2.5" />
+  <text x="600" y="330" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="34px" font-weight="700">数据处理与统一表征</text>
+  <text x="600" y="372" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">键完整性与异常检查　小时转日聚合　训练与预测日期边界</text>
+  <text x="600" y="410" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">晴空辐射包络及辐射物理量　历史发电滞后和用户尺度特征</text>
+
+  <path d="M600 460 V510 H305" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <path d="M600 460 V510 H895" stroke="#4d9187" stroke-width="3" fill="none" marker-end="url(#arrowTeal)" />
+
+  <rect x="55" y="520" width="520" height="690" rx="26" fill="#edf4fa" stroke="#7da5c6" stroke-width="2.5" />
+  <text x="315" y="570" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="34px" font-weight="700">分支一</text>
+  <text x="315" y="610" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">晴空包络辐射特征与序列校正</text>
+  <rect x="95" y="650" width="440" height="135" rx="16" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="315" y="695" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">物理与统计特征</text>
+  <text x="315" y="735" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">90% 晴空包络　辐射组成　云雨风</text>
+  <text x="315" y="765" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">滞后滚动　月度水平　用户容量尺度</text>
+  <path d="M315 785 V825" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <rect x="95" y="830" width="440" height="145" rx="16" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="315" y="875" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">逐用户 ExtraTrees</text>
+  <text x="315" y="915" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">全历史与近 180 日双森林</text>
+  <text x="315" y="947" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">无曲线视图与修复曲线视图</text>
+  <path d="M315 975 V1015" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <rect x="95" y="1020" width="440" height="145" rx="16" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="315" y="1065" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">两种子序列网络与风险门控</text>
+  <text x="315" y="1105" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">普通日期树模型 75% 加网络 25%</text>
+  <text x="315" y="1137" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">每用户低出力日排序后固定倍率修正</text>
+
+  <rect x="625" y="520" width="520" height="690" rx="26" fill="#edf8f6" stroke="#6aa99f" stroke-width="2.5" />
+  <text x="885" y="570" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="34px" font-weight="700">分支二</text>
+  <text x="885" y="610" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">预报气象校正与共享用户专家蒸馏</text>
+  <rect x="665" y="650" width="440" height="135" rx="16" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="885" y="695" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">预报到实况气象桥接</text>
+  <text x="885" y="735" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">区域站点相关映射　按月前向样本外训练</text>
+  <text x="885" y="765" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">17 维日尺度与分时段均值及不确定性</text>
+  <path d="M885 785 V825" stroke="#4d9187" stroke-width="3" fill="none" marker-end="url(#arrowTeal)" />
+  <rect x="665" y="830" width="440" height="145" rx="16" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="885" y="875" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">教师模型</text>
+  <text x="885" y="915" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">共享 ExtraTrees 与 100 个用户树模型</text>
+  <text x="885" y="947" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">历史实况天气构造月度软目标</text>
+  <path d="M885 975 V1015" stroke="#4d9187" stroke-width="3" fill="none" marker-end="url(#arrowTeal)" />
+  <rect x="665" y="1020" width="440" height="145" rx="16" fill="#f8fbfd" stroke="#9fb4c8" stroke-width="2" />
+  <text x="885" y="1065" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">学生专家推理</text>
+  <text x="885" y="1105" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">169 维预报可得特征</text>
+  <text x="885" y="1137" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">共享与用户级预测各 50%</text>
+
+  <path d="M315 1210 V1275 H600" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <path d="M885 1210 V1275 H600" stroke="#4d9187" stroke-width="3" fill="none" marker-end="url(#arrowTeal)" />
+  <rect x="170" y="1290" width="860" height="145" rx="22" fill="#e7f0f7" stroke="#557fa4" stroke-width="2.5" />
+  <text x="600" y="1340" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="34px" font-weight="700">固定双分支融合</text>
+  <text x="600" y="1390" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">预测值 = 0.75 × 分支一 + 0.25 × 分支二</text>
+  <path d="M600 1435 V1480" stroke="#66839d" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <rect x="170" y="1490" width="860" height="150" rx="22" fill="#f3f6f8" stroke="#8799a9" stroke-width="2.5" />
+  <text x="600" y="1540" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="34px" font-weight="700">约束与交付</text>
+  <text x="600" y="1583" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#405266" font-size="23px">统一 pv_id 和日期顺序　有限数与非负约束　重复键及缺失键检查</text>
+  <text x="600" y="1622" text-anchor="middle" font-family="Microsoft YaHei,Arial,sans-serif" fill="#172433" font-size="28px" font-weight="700">100 个用户 × 31 天 = 3100 条结果</text>
+</svg>

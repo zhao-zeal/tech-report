@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img"><title>温度响应模块：温度记忆与四分支基函数</title><rect width="1600" height="1000" fill="white"/>
+<g aria-label="(c)  温度响应模块：温度记忆与四分支基函数">
+<text x="45.000" y="60.450" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="35.000" font-weight="700" fill="#222C38">(c)  温度响应模块：温度记忆与四分支基函数</text>
+</g>
+<g aria-label="同一城市内，对总量与 6 个分项分别估计响应；参数仅由历史普通日期拟合。">
+<text x="45.000" y="102.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">同一城市内，对总量与 6 个分项分别估计响应；参数仅由历史普通日期拟合。</text>
+</g>
+<polyline points="45,122 1555,122" fill="none" stroke="#D9DEE4" stroke-width="1.3" stroke-linejoin="round"/>
+<polyline points="190,247 190,284 510,284 510,324" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="510,247 510,284 510,284 510,324" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="510.00,324.00 514.80,314.00 505.20,314.00" fill="#AC7335"/>
+<polyline points="830,247 830,284 510,284 510,324" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="510,412 510,452 155,452 155,488" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="155.00,488.00 159.80,478.00 150.20,478.00" fill="#AC7335"/>
+<polyline points="155,581 155,630" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="510,412 510,452 390,452 390,488" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="390.00,488.00 394.80,478.00 385.20,478.00" fill="#AC7335"/>
+<polyline points="390,581 390,630" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="510,412 510,452 625,452 625,488" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="625.00,488.00 629.80,478.00 620.20,478.00" fill="#AC7335"/>
+<polyline points="625,581 625,630" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="510,412 510,452 860,452 860,488" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="860.00,488.00 864.80,478.00 855.20,478.00" fill="#AC7335"/>
+<polyline points="860,581 860,630" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="155,630 860,630" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="510,630 510,666" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="510.00,666.00 514.80,656.00 505.20,656.00" fill="#AC7335"/>
+<polyline points="510,739 510,807" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="510.00,807.00 514.80,797.00 505.20,797.00" fill="#AC7335"/>
+<rect x="55.0" y="162" width="270" height="85" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="当日温度 T(t)">
+<text x="113.750" y="213.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#AC7335">当日温度 T(t)</text>
+</g>
+<rect x="148.25" y="264" width="83.5" height="30" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="× 0.75">
+<text x="156.250" y="286.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#AC7335">× 0.75</text>
+</g>
+<rect x="375.0" y="162" width="270" height="85" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="前 1 日 T(t−1)">
+<text x="426.250" y="213.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#AC7335">前 1 日 T(t−1)</text>
+</g>
+<rect x="461.75" y="264" width="96.5" height="30" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="× 0.125">
+<text x="469.750" y="286.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#AC7335">× 0.125</text>
+</g>
+<rect x="695.0" y="162" width="270" height="85" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="前 2 日 T(t−2)">
+<text x="746.250" y="213.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#AC7335">前 2 日 T(t−2)</text>
+</g>
+<rect x="781.75" y="264" width="96.5" height="30" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="× 0.125">
+<text x="789.750" y="286.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#AC7335">× 0.125</text>
+</g>
+<rect x="270.0" y="324" width="480" height="88" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="有效温度 Te">
+<text x="435.770" y="361.990" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27.000" font-weight="700" fill="#AC7335">有效温度 Te</text>
+</g>
+<g aria-label="0.75T(t) + 0.125T(t−1) + 0.125T(t−2)">
+<text x="327.250" y="395.770" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21.000" font-weight="400" fill="#627080">0.75T(t) + 0.125T(t−1) + 0.125T(t−2)</text>
+</g>
+<rect x="46.0" y="488" width="218" height="93" rx="8" fill="white" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="f1">
+<text x="141.250" y="528.490" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27.000" font-weight="700" fill="#AC7335">f1</text>
+</g>
+<g aria-label="max(0, 10−Te) / 10">
+<text x="65.266" y="561.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">max(0, 10−Te) / 10</text>
+</g>
+<rect x="281.0" y="488" width="218" height="93" rx="8" fill="white" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="f2">
+<text x="376.250" y="528.490" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27.000" font-weight="700" fill="#AC7335">f2</text>
+</g>
+<g aria-label="max(0, 18−Te) / 10">
+<text x="300.266" y="561.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">max(0, 18−Te) / 10</text>
+</g>
+<rect x="516.0" y="488" width="218" height="93" rx="8" fill="white" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="f3">
+<text x="611.250" y="528.490" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27.000" font-weight="700" fill="#AC7335">f3</text>
+</g>
+<g aria-label="max(0, Te−22) / 10">
+<text x="535.266" y="561.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">max(0, Te−22) / 10</text>
+</g>
+<rect x="751.0" y="488" width="218" height="93" rx="8" fill="white" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="f4">
+<text x="846.250" y="528.490" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27.000" font-weight="700" fill="#AC7335">f4</text>
+</g>
+<g aria-label="max(0, Te−26) / 10">
+<text x="770.266" y="561.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">max(0, Te−26) / 10</text>
+</g>
+<rect x="275.0" y="666" width="470" height="73" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="φ(Te) = [ f1, f2, f3, f4 ]">
+<text x="363.270" y="712.120" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#AC7335">φ(Te) = [ f1, f2, f3, f4 ]</text>
+</g>
+<rect x="245.0" y="807" width="530" height="88" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="温度响应 g(c,j,t)">
+<text x="408.500" y="844.990" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27.000" font-weight="700" fill="#AC7335">温度响应 g(c,j,t)</text>
+</g>
+<g aria-label="exp(0.75 × φ(Te)ᵀ β(c,j))">
+<text x="369.523" y="882.250" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="400" fill="#627080">exp(0.75 × φ(Te)</text>
+<text x="567.977" y="873.105" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="16.500" font-weight="400" fill="#627080">T</text>
+<text x="577.477" y="882.250" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="400" fill="#627080"> β(c,j))</text>
+</g>
+<rect x="1030" y="149" width="525" height="580" rx="4" fill="#FBFBFC" stroke="#B0B8C1" stroke-width="1.4" stroke-dasharray="7 5"/>
+<g aria-label="历史参数拟合">
+<text x="1214.000" y="188.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#222C38">历史参数拟合</text>
+</g>
+<polyline points="1292,291 1292,332" fill="none" stroke="#76818C" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1292.00,332.00 1296.80,322.00 1287.20,322.00" fill="#76818C"/>
+<polyline points="1292,444 1292,463" fill="none" stroke="#76818C" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1292.00,463.00 1296.80,453.00 1287.20,453.00" fill="#76818C"/>
+<polyline points="1292,551 1292,592" fill="none" stroke="#76818C" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1292.00,592.00 1296.80,582.00 1287.20,582.00" fill="#76818C"/>
+<rect x="1077.0" y="214" width="430" height="77" rx="8" fill="white" stroke="#222C38" stroke-width="1.6"/>
+<g aria-label="历史普通日期">
+<text x="1217.000" y="245.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#222C38">历史普通日期</text>
+</g>
+<g aria-label="温度 + 对数电量">
+<text x="1211.250" y="280.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">温度 + 对数电量</text>
+</g>
+<rect x="1077.0" y="332" width="430" height="112" rx="8" fill="white" stroke="#222C38" stroke-width="1.6"/>
+<g aria-label="7 日差分配对">
+<text x="1215.250" y="365.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#222C38">7 日差分配对</text>
+</g>
+<g aria-label="X = Δ_{7}φ">
+<text x="1249.250" y="400.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">X = Δ</text>
+<text x="1308.250" y="405.341" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="15.840" font-weight="400" fill="#627080">7</text>
+<text x="1317.750" y="400.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">φ</text>
+</g>
+<g aria-label="Y = Clip(Δ_{7} ln L, −0.5, 0.5)">
+<text x="1156.500" y="432.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">Y = Clip(Δ</text>
+<text x="1263.000" y="437.341" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="15.840" font-weight="400" fill="#627080">7</text>
+<text x="1272.500" y="432.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080"> ln L, −0.5, 0.5)</text>
+</g>
+<rect x="1077.0" y="463" width="430" height="88" rx="8" fill="white" stroke="#222C38" stroke-width="1.6"/>
+<g aria-label="岭回归 α = 30">
+<text x="1206.750" y="500.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#222C38">岭回归 α = 30</text>
+</g>
+<g aria-label="β = (XᵀX + 30I)⁻¹XᵀY">
+<text x="1181.500" y="536.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#627080">β = (X</text>
+<text x="1249.000" y="527.597" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="15.180" font-weight="400" fill="#627080">T</text>
+<text x="1257.500" y="536.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#627080">X + 30I)</text>
+<text x="1345.000" y="527.597" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="15.180" font-weight="400" fill="#627080">−1</text>
+<text x="1365.000" y="536.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#627080">X</text>
+<text x="1380.000" y="527.597" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="15.180" font-weight="400" fill="#627080">T</text>
+<text x="1388.500" y="536.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#627080">Y</text>
+</g>
+<rect x="1077.0" y="592" width="430" height="89" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="β(c)：4 × 7 参数矩阵">
+<text x="1169.000" y="629.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#AC7335">β(c)：4 × 7 参数矩阵</text>
+</g>
+<g aria-label="4 个基函数 × 7 个电量通道">
+<text x="1158.750" y="664.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">4 个基函数 × 7 个电量通道</text>
+</g>
+<polyline points="1292,681 1292,850 775,850" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<polygon points="775.00,850.00 785.00,854.80 785.00,845.20" fill="#AC7335"/>
+<rect x="1074.0" y="827" width="108.0" height="31" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="固定参数">
+<text x="1082.000" y="850.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#AC7335">固定参数</text>
+</g>
+<polyline points="45,926 1555,926" fill="none" stroke="#D9DEE4" stroke-width="1.1" stroke-linejoin="round"/>
+<g aria-label="历史去温度影响：N = L / g；未来温度重构：预测电量 = 去温度影响预测 × 未来温度响应。">
+<text x="45.000" y="960.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">历史去温度影响：N = L / g；未来温度重构：预测电量 = 去温度影响预测 × 未来温度响应。</text>
+</g>
+<g aria-label="普通日期：非节假日且距春节超过 30 日，t 与 t−7 均须满足；温度响应使用自然对数，Ridge 预测分支使用 log10。">
+<text x="45.000" y="988.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">普通日期：非节假日且距春节超过 30 日，t 与 t−7 均须满足；温度响应使用自然对数，Ridge 预测分支使用 log10。</text>
+</g>
+</svg>

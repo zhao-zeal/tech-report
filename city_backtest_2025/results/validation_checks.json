@@ -1,0 +1,17 @@
+{
+  "train_end_before_prediction": true,
+  "ridge_max_target_date": "2025-01-12",
+  "template_source_years": [
+    2023,
+    2024
+  ],
+  "template_sources_complete_before_origin": true,
+  "unique_city_date": true,
+  "rows_per_experiment": 280,
+  "finite_predictions": true,
+  "nonnegative_predictions": true,
+  "w0_equals_ridge_only": true,
+  "w1_equals_template_only": true,
+  "w085_equals_full": true,
+  "score_recompute_identical": true
+}

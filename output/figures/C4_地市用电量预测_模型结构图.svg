@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1790" viewBox="0 0 1200 1790" role="img" aria-labelledby="title desc">
+<title id="title">C4 地市用电量预测模型结构图</title>
+<desc id="desc">分城市 Ridge 直接预测与温度修正春节模板并行，分别按百分之十五和百分之八十五融合。模板内全社会总量与六分项之和各占百分之五十。最终施加非负和城市历史上限约束。</desc>
+<rect width="1200" height="1790" fill="white"/>
+<rect x="48" y="39" width="7" height="61" rx="3" fill="#14766D" stroke="none" stroke-width="1.5"/>
+<text x="73" y="67.32" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" text-anchor="start" fill="#172B42">C4 地市用电量预测模型</text>
+<text x="73" y="108.01" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" text-anchor="start" fill="#536579">温度修正春节模板与分城市 Ridge 融合</text>
+<rect x="48" y="146" width="350" height="105" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="223.0" y="190.38" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#172B42">历史用电量</text>
+<text x="223.0" y="226.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">全社会总量 + 6 个分项</text>
+<rect x="425" y="146" width="350" height="105" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="600.0" y="190.38" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#172B42">气象数据</text>
+<text x="600.0" y="226.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">历史实测 + 未来预报</text>
+<rect x="802" y="146" width="350" height="105" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="977.0" y="190.38" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#172B42">日历与假期</text>
+<text x="977.0" y="226.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">日期特征 + 春节相位</text>
+<polyline points="223,251 223,281" fill="none" stroke="#8797A8" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="223.00,281.00 227.80,272.00 218.20,272.00" fill="#8797A8"/>
+<polyline points="600,251 600,281" fill="none" stroke="#8797A8" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="600.00,281.00 604.80,272.00 595.20,272.00" fill="#8797A8"/>
+<polyline points="977,251 977,281" fill="none" stroke="#8797A8" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="977.00,281.00 981.80,272.00 972.20,272.00" fill="#8797A8"/>
+<rect x="48" y="281" width="1104" height="83" rx="13" fill="#F5F7FA" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="600.0" y="316.88" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#172B42">日尺度数据处理</text>
+<text x="600.0" y="354.14" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">城市 × 日期对齐 · 气象日聚合 · 缺失补齐与完整性校验</text>
+<rect x="48" y="415" width="350" height="851" rx="18" fill="#F1F6FB" stroke="none" stroke-width="1.5"/>
+<rect x="425" y="415" width="727" height="851" rx="18" fill="#EFF8F5" stroke="none" stroke-width="1.5"/>
+<polyline points="223,364 223,415" fill="none" stroke="#235A91" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="223.00,415.00 227.80,406.00 218.20,406.00" fill="#235A91"/>
+<polyline points="790,364 790,415" fill="none" stroke="#14766D" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="790.00,415.00 794.80,406.00 785.20,406.00" fill="#14766D"/>
+<text x="223" y="453.75" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#235A91">Ridge 直接预测分支</text>
+<text x="790" y="453.75" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#14766D">温度修正春节模板分支</text>
+<rect x="72" y="488" width="302" height="169" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="223.0" y="529.25" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#235A91">146 维特征</text>
+<text x="223.0" y="565.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">日历、气象、历史负荷</text>
+<text x="223.0" y="600.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">温湿指数及交互特征</text>
+<text x="223.0" y="635.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">跨城市信息、预测步长</text>
+<polyline points="223,657 223,724" fill="none" stroke="#235A91" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="223.00,724.00 227.80,715.00 218.20,715.00" fill="#235A91"/>
+<rect x="72" y="724" width="302" height="149" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="223.0" y="760.88" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#235A91">分城市 Ridge 回归</text>
+<text x="223.0" y="797.27" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">特征标准化；α = 30</text>
+<text x="223.0" y="828.27" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">目标：log10(电量)</text>
+<text x="223.0" y="859.27" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">每个城市独立拟合</text>
+<polyline points="223,873 223,942" fill="none" stroke="#235A91" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="223.00,942.00 227.80,933.00 218.20,933.00" fill="#235A91"/>
+<rect x="72" y="942" width="302" height="143" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="223.0" y="978.51" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#235A91">未来 28 日直接预测</text>
+<text x="223.0" y="1014.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">指数逆变换 + 偏差修正</text>
+<text x="223.0" y="1043.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">历史负荷特征固定</text>
+<text x="223.0" y="1072.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">预测值不反馈至下一日</text>
+<polyline points="223,1085 223,1177" fill="none" stroke="#235A91" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="223.00,1177.00 227.80,1168.00 218.20,1168.00" fill="#235A91"/>
+<rect x="72" y="1177" width="302" height="66" rx="13" fill="#E0ECF8" stroke="#9BBAD9" stroke-width="1.5"/>
+<text x="223.0" y="1219.25" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#235A91">总量预测 R</text>
+<rect x="449" y="488" width="679" height="161" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="788.5" y="528.25" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#14766D">① 历史温度响应建模</text>
+<text x="788.5" y="564.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">全社会总量与 6 个分项；仅使用历史普通日期</text>
+<text x="788.5" y="597.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">7 日差分 Ridge（α = 30）；响应收缩系数 0.75</text>
+<text x="788.5" y="630.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">有效温度：当日 75%，前 1 日、前 2 日各 12.5%</text>
+<polyline points="789,649 789,686" fill="none" stroke="#14766D" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="789.00,686.00 793.80,677.00 784.20,677.00" fill="#14766D"/>
+<rect x="449" y="686" width="679" height="204" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="788.5" y="727.25" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#14766D">② 去除温度影响并构建春节模板</text>
+<text x="788.5" y="764.64" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">历史电量 ÷ 温度响应 → 去温度影响序列</text>
+<text x="788.5" y="799.64" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">春节相位对齐；7 日平滑与节后时间对齐</text>
+<text x="788.5" y="834.64" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">各年曲线 ÷ 对应窗口前 5 日均值</text>
+<text x="788.5" y="869.64" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">2023—2025 年等权平均 × 最近 5 日均值</text>
+<polyline points="789,890 789,927" fill="none" stroke="#14766D" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="789.00,927.00 793.80,918.00 784.20,918.00" fill="#14766D"/>
+<rect x="449" y="927" width="679" height="116" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="788.5" y="964.25" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#14766D">③ 加入预测期温度影响</text>
+<text x="788.5" y="1001.64" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">去温度影响预测 × 未来预报温度响应</text>
+<text x="788.5" y="1031.64" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">沿用历史拟合的温度参数</text>
+<polyline points="789,1043 789,1064 609,1064 609,1091" fill="none" stroke="#14766D" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="609.00,1091.00 613.80,1082.00 604.20,1082.00" fill="#14766D"/>
+<polyline points="789,1064 969,1064 969,1091" fill="none" stroke="#14766D" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="969.00,1091.00 973.80,1082.00 964.20,1082.00" fill="#14766D"/>
+<rect x="449" y="1091" width="320" height="61" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="609.0" y="1130.01" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#14766D">总量模板预测 A</text>
+<rect x="809" y="1091" width="319" height="61" rx="13" fill="#FFFFFF" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="968.5" y="1129.64" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#14766D">六分项模板预测之和 B</text>
+<polyline points="609,1152 609,1164 674,1164 674,1177" fill="none" stroke="#14766D" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="674.00,1177.00 678.80,1168.00 669.20,1168.00" fill="#14766D"/>
+<polyline points="969,1152 969,1164 904,1164 904,1177" fill="none" stroke="#14766D" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="904.00,1177.00 908.80,1168.00 899.20,1168.00" fill="#14766D"/>
+<rect x="543" y="1177" width="492" height="66" rx="13" fill="#DCF0E8" stroke="#83B6A6" stroke-width="1.5"/>
+<text x="789.0" y="1219.25" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="700" text-anchor="middle" fill="#14766D">模板融合 T = 0.5A + 0.5B</text>
+<polyline points="223,1243 223,1290 440,1290 440,1316" fill="none" stroke="#235A91" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="440.00,1316.00 444.80,1307.00 435.20,1307.00" fill="#235A91"/>
+<polyline points="789,1243 789,1316" fill="none" stroke="#14766D" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="789.00,1316.00 793.80,1307.00 784.20,1307.00" fill="#14766D"/>
+<rect x="225" y="1316" width="750" height="90" rx="13" fill="#EAF0F6" stroke="#9DADBF" stroke-width="1.5"/>
+<text x="600.0" y="1355.86" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#172B42">固定权重融合：ŷ = 0.15R + 0.85T</text>
+<text x="600.0" y="1392.77" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" font-weight="400" text-anchor="middle" fill="#536579">等价权重：Ridge 15% · 总量模板 42.5% · 分项模板和 42.5%</text>
+<polyline points="600,1406 600,1447" fill="none" stroke="#172B42" stroke-width="2.5" stroke-linejoin="round"/>
+<polygon points="600.00,1447.00 604.80,1438.00 595.20,1438.00" fill="#172B42"/>
+<rect x="225" y="1447" width="750" height="125" rx="13" fill="#F6F8FA" stroke="#D4DEE8" stroke-width="1.5"/>
+<text x="600.0" y="1486.49" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#172B42">非负约束与城市历史上限裁剪</text>
+<text x="600.0" y="1524.14" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">0 ≤ 预测电量 ≤ 1.5 × 城市历史电量的 99.9% 分位数</text>
+<text x="600.0" y="1557.14" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" text-anchor="middle" fill="#536579">2026 年 2 月：10 个城市 × 28 天 → 280 条日用电量预测</text>
+<polyline points="48,1609 1152,1609" fill="none" stroke="#D5DDE5" stroke-width="1" stroke-linejoin="round"/>
+<text x="48" y="1643.53" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#536579">分项口径：第一、第二、第三产业，城乡居民生活，趸售，其他及无行业分类（共 6 项）。</text>
+<text x="48" y="1674.53" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#536579">春节相位以春节当天为 0；−2 至 +6 保留原曲线；+7 起加入假期结束时间对齐，最高占 50%。</text>
+<text x="48" y="1705.53" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#536579">模板中的 5 日均值均基于去温度影响电量；训练使用历史实测气象，预测使用未来气象预报。</text>
+<text x="48" y="1736.53" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="19" font-weight="400" text-anchor="start" fill="#536579">模型与温度参数按城市拟合；两级融合权重在整个 28 日预测期内固定。</text>
+<text x="1152" y="1773.92" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="16" font-weight="400" text-anchor="middle" fill="#536579"></text>
+</svg>

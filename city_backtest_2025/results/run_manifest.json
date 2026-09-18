@@ -1,0 +1,54 @@
+{
+  "experiment": "2025 CNY phase conditional backtest with observed validation weather",
+  "train_start": "2023-01-01",
+  "train_end": "2025-01-12",
+  "prediction_start": "2025-01-13",
+  "prediction_end": "2025-02-09",
+  "special_start": "2025-01-27",
+  "special_end": "2025-02-04",
+  "weather_condition": "validation-period observed weather used consistently for all models; no forecast-error component",
+  "city_count": 10,
+  "prediction_rows": 280,
+  "ridge_origins": 316,
+  "ridge_samples_per_city": 8848,
+  "queue_depth": 400,
+  "template_years": [
+    2023,
+    2024
+  ],
+  "template_year_weights": [
+    0.5,
+    0.5
+  ],
+  "industry_identity_max_error": 0.0002494640969679107,
+  "input_hashes": {
+    "load": "51861af9944deeb7a072b2da5f737f3f5110bcc97dbec43d8b0e71722d4aef01",
+    "weather": "0ccf5348aefe9dfec85926aef7abf0e162915048d3271d910a970d322df17abf",
+    "pipeline": "69346f1bfb827de007784fe09195060ab229b3b445f238ca4c2afc3a619906a0",
+    "backtest_script": "e6becedc74866565f09ecc45b5432dfd4d477f952ca26baca49715fee3a2fa9d",
+    "official_baseline_zip": "4646a4f1028b88e12e064a23d0bedfc98f2487c28fb02c388013adefbc55f969"
+  },
+  "official_baseline_source": "E:\\电量预测赛道\\研发工具包\\研发工具包\\Baseline.zip",
+  "official_baseline_member_hashes": {
+    "utils/config.py": "1f447aa7e5e9f05a4f2bc97b2c1cbf5210c7c1a23369453f7b5b52f579ec8eab",
+    "utils/data_loader.py": "69958d27b30f4b99418c1cb0aff5ff41753952e62ab826c66c0b677238628646",
+    "utils/feature_eng.py": "535486484fc768c29ba556c76c1264f44ad73ef595ac5ba951defb23a9ebdc8a",
+    "utils/prophet_model.py": "72e68e93f967dbd67705fa2ba4e84ca934f520007edc6006abd3bd1ac03fad7d",
+    "train.py": "151b59b04edc771882da446856310adacb5c6e5449f248e298a15d953e924791",
+    "predict.py": "38051ac6c04c93f0aa23c4b99c0127be305fadac46c4d7a1a753b16fea85c750"
+  },
+  "versions": {
+    "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.8",
+    "prophet": "1.4.0",
+    "sklearn": "1.8.0",
+    "scipy": "1.17.1",
+    "chinese_calendar": "1.11.0"
+  },
+  "command": "C:\\Users\\16867\\miniconda3\\python.exe .\\city_backtest_2025\\run_backtest.py --reuse-cache",
+  "elapsed_seconds": 46.98080515861511,
+  "thermal_training_pairs": 381
+}

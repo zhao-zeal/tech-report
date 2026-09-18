@@ -1,0 +1,50 @@
+2025年春节相位地市用电量条件回测运行日志
+command: C:\Users\16867\miniconda3\python.exe .\city_backtest_2025\run_backtest.py --reuse-cache
+elapsed_seconds: 46.981
+weather_condition: validation-period observed weather used consistently for all models; no forecast-error component
+
+[ablation]
+      experiment_id experiment_label  score_28  score_special  score_total  delta_vs_full
+  official_baseline       官方Baseline 17.590404       4.265150    21.855554      -2.107824
+               full             完整模型 19.181893       4.781485    23.963377       0.000000
+     no_temperature           关闭温度修正 19.083832       4.770650    23.854482      -0.108895
+        no_industry         关闭行业分项融合 19.151762       4.766583    23.918346      -0.045032
+no_return_alignment         关闭节后恢复对齐 19.178148       4.781485    23.959633      -0.003744
+       no_smoothing         关闭历史曲线平滑 19.040868       4.781485    23.822352      -0.141025
+      template_only          仅春节模板分支 19.149192       4.789514    23.938706      -0.024671
+         ridge_only         仅Ridge分支 17.823732       4.487031    22.310763      -1.652614
+
+[weight_sensitivity]
+ weight  score_28  score_special  score_total  is_original
+   0.00 17.823732       4.487031    22.310763        False
+   0.10 18.032027       4.530370    22.562398        False
+   0.20 18.235196       4.572500    22.807696        False
+   0.30 18.431465       4.613085    23.044550        False
+   0.40 18.618139       4.651719    23.269858        False
+   0.50 18.791077       4.687907    23.478985        False
+   0.60 18.944285       4.720991    23.665275        False
+   0.70 19.069914       4.749968    23.819882        False
+   0.80 19.157319       4.773086    23.930405        False
+   0.85 19.181893       4.781485    23.963377         True
+   0.90 19.190261       4.787130    23.977392        False
+   0.95 19.179716       4.789807    23.969523        False
+   1.00 19.149192       4.789514    23.938706        False
+
+[validation_checks]
+{
+  "train_end_before_prediction": true,
+  "ridge_max_target_date": "2025-01-12",
+  "template_source_years": [
+    2023,
+    2024
+  ],
+  "template_sources_complete_before_origin": true,
+  "unique_city_date": true,
+  "rows_per_experiment": 280,
+  "finite_predictions": true,
+  "nonnegative_predictions": true,
+  "w0_equals_ridge_only": true,
+  "w1_equals_template_only": true,
+  "w085_equals_full": true,
+  "score_recompute_identical": true
+}

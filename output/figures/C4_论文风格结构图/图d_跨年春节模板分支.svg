@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img"><title>春节模板模块：跨年分支与温度重构</title><rect width="1600" height="1000" fill="white"/>
+<g aria-label="(d)  春节模板模块：跨年分支与温度重构">
+<text x="45.000" y="60.450" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="35.000" font-weight="700" fill="#222C38">(d)  春节模板模块：跨年分支与温度重构</text>
+</g>
+<g aria-label="各城市的总量与 6 个分项分别执行；模板张量包含 28 个预测日 × 7 个电量通道。">
+<text x="45.000" y="102.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">各城市的总量与 6 个分项分别执行；模板张量包含 28 个预测日 × 7 个电量通道。</text>
+</g>
+<polyline points="45,122 1555,122" fill="none" stroke="#D9DEE4" stroke-width="1.3" stroke-linejoin="round"/>
+<polyline points="274,515 309,515" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="309,260 309,770" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="309,260 350,260" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="350.00,260.00 340.00,255.20 340.00,264.80" fill="#806498"/>
+<polyline points="858,260 928,260" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="309,515 350,515" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="350.00,515.00 340.00,510.20 340.00,519.80" fill="#806498"/>
+<polyline points="858,515 928,515" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="309,770 350,770" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="350.00,770.00 340.00,765.20 340.00,774.80" fill="#806498"/>
+<polyline points="858,770 928,770" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="928,260 928,770" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="928,515 953,515" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="953.00,515.00 943.00,510.20 943.00,519.80" fill="#806498"/>
+<polyline points="1015,515 1081,515" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1081.00,515.00 1071.00,510.20 1071.00,519.80" fill="#806498"/>
+<polyline points="1139,515 1237,515" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1237.00,515.00 1227.00,510.20 1227.00,519.80" fill="#806498"/>
+<polyline points="1295,515 1390,515" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1390.00,515.00 1380.00,510.20 1380.00,519.80" fill="#806498"/>
+<rect x="39.5" y="457" width="235" height="116" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="去温度影响历史">
+<text x="73.000" y="507.880" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24.000" font-weight="700" fill="#AC7335">去温度影响历史</text>
+</g>
+<g aria-label="N = L / g">
+<text x="105.000" y="543.880" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24.000" font-weight="400" fill="#627080">N = L / g</text>
+</g>
+<g aria-label="g 来自图 (c)">
+<text x="97.500" y="617.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">g 来自图 (c)</text>
+</g>
+<rect x="350" y="170" width="508" height="180" rx="9" fill="#F2EDF7" stroke="#806498" stroke-width="1.7"/>
+<g aria-label="2023 年分支">
+<text x="372.000" y="207.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#806498">2023 年分支</text>
+</g>
+<g aria-label="">
+</g>
+<rect x="367.0" y="233" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="相位对齐">
+<text x="396.000" y="265.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">相位对齐</text>
+</g>
+<rect x="531.0" y="233" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="选择性平滑">
+<text x="549.000" y="265.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">选择性平滑</text>
+</g>
+<rect x="695.0" y="233" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="节后对齐">
+<text x="724.000" y="265.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">节后对齐</text>
+</g>
+<polyline points="513,257 531,257" fill="none" stroke="#806498" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="531.00,257.00 521.00,252.20 521.00,261.80" fill="#806498"/>
+<polyline points="677,257 695,257" fill="none" stroke="#806498" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="695.00,257.00 685.00,252.20 685.00,261.80" fill="#806498"/>
+<g aria-label="处理后曲线 ÷ 源窗口前 5 日均值">
+<text x="436.750" y="326.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#806498">处理后曲线 ÷ 源窗口前 5 日均值</text>
+</g>
+<rect x="868.25" y="237" width="51.5" height="30" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="1/3">
+<text x="876.250" y="259.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#806498">1/3</text>
+</g>
+<rect x="350" y="425" width="508" height="180" rx="9" fill="#F2EDF7" stroke="#806498" stroke-width="1.7"/>
+<g aria-label="2024 年分支">
+<text x="372.000" y="462.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#806498">2024 年分支</text>
+</g>
+<g aria-label="">
+</g>
+<rect x="367.0" y="488" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="相位对齐">
+<text x="396.000" y="520.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">相位对齐</text>
+</g>
+<rect x="531.0" y="488" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="选择性平滑">
+<text x="549.000" y="520.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">选择性平滑</text>
+</g>
+<rect x="695.0" y="488" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="节后对齐">
+<text x="724.000" y="520.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">节后对齐</text>
+</g>
+<polyline points="513,512 531,512" fill="none" stroke="#806498" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="531.00,512.00 521.00,507.20 521.00,516.80" fill="#806498"/>
+<polyline points="677,512 695,512" fill="none" stroke="#806498" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="695.00,512.00 685.00,507.20 685.00,516.80" fill="#806498"/>
+<g aria-label="处理后曲线 ÷ 源窗口前 5 日均值">
+<text x="436.750" y="581.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#806498">处理后曲线 ÷ 源窗口前 5 日均值</text>
+</g>
+<rect x="868.25" y="492" width="51.5" height="30" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="1/3">
+<text x="876.250" y="514.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#806498">1/3</text>
+</g>
+<rect x="350" y="680" width="508" height="180" rx="9" fill="#F2EDF7" stroke="#806498" stroke-width="1.7"/>
+<g aria-label="2025 年分支">
+<text x="372.000" y="717.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#806498">2025 年分支</text>
+</g>
+<g aria-label="">
+</g>
+<rect x="367.0" y="743" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="相位对齐">
+<text x="396.000" y="775.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">相位对齐</text>
+</g>
+<rect x="531.0" y="743" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="选择性平滑">
+<text x="549.000" y="775.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">选择性平滑</text>
+</g>
+<rect x="695.0" y="743" width="146" height="49" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="节后对齐">
+<text x="724.000" y="775.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">节后对齐</text>
+</g>
+<polyline points="513,767 531,767" fill="none" stroke="#806498" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="531.00,767.00 521.00,762.20 521.00,771.80" fill="#806498"/>
+<polyline points="677,767 695,767" fill="none" stroke="#806498" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="695.00,767.00 685.00,762.20 685.00,771.80" fill="#806498"/>
+<g aria-label="处理后曲线 ÷ 源窗口前 5 日均值">
+<text x="436.750" y="836.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#806498">处理后曲线 ÷ 源窗口前 5 日均值</text>
+</g>
+<rect x="868.25" y="747" width="51.5" height="30" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="1/3">
+<text x="876.250" y="769.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#806498">1/3</text>
+</g>
+<circle cx="984" cy="515" r="31" fill="#F2EDF7" stroke="#806498" stroke-width="1.7"/>
+<g aria-label="Σ">
+<text x="975.250" y="525.470" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31.000" font-weight="400" fill="#806498">Σ</text>
+</g>
+<g aria-label="等权平均">
+<text x="938.000" y="466.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#806498">等权平均</text>
+</g>
+<circle cx="1110" cy="515" r="29" fill="#F2EDF7" stroke="#806498" stroke-width="1.7"/>
+<g aria-label="×">
+<text x="1098.500" y="525.470" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31.000" font-weight="400" fill="#806498">×</text>
+</g>
+<rect x="1030.0" y="280" width="160" height="102" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="最近 5 日">
+<text x="1063.750" y="323.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#806498">最近 5 日</text>
+</g>
+<g aria-label="N 的均值">
+<text x="1067.000" y="356.270" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21.000" font-weight="400" fill="#627080">N 的均值</text>
+</g>
+<polyline points="1110,382 1110,486" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1110.00,486.00 1114.80,476.00 1105.20,476.00" fill="#806498"/>
+<g aria-label="水平校准">
+<text x="1064.000" y="601.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#806498">水平校准</text>
+</g>
+<circle cx="1266" cy="515" r="29" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.7"/>
+<g aria-label="×">
+<text x="1254.500" y="525.470" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31.000" font-weight="400" fill="#AC7335">×</text>
+</g>
+<rect x="1182.0" y="166" width="208" height="102" rx="8" fill="#FAF1E5" stroke="#AC7335" stroke-width="1.6"/>
+<g aria-label="未来温度响应">
+<text x="1220.000" y="209.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="700" fill="#AC7335">未来温度响应</text>
+</g>
+<g aria-label="预报温度 → g">
+<text x="1217.500" y="243.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">预报温度 → g</text>
+</g>
+<polyline points="1286,268 1286,417 1266,417 1266,486" fill="none" stroke="#AC7335" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1266.00,486.00 1270.80,476.00 1261.20,476.00" fill="#AC7335"/>
+<g aria-label="温度重构">
+<text x="1220.000" y="601.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#AC7335">温度重构</text>
+</g>
+<rect x="1402" y="437" width="143" height="133" rx="3" fill="white" stroke="#806498" stroke-width="1.4"/>
+<rect x="1396" y="443" width="143" height="133" rx="3" fill="white" stroke="#806498" stroke-width="1.4"/>
+<rect x="1390" y="449" width="143" height="133" rx="3" fill="white" stroke="#806498" stroke-width="1.4"/>
+<rect x="1400.0" y="459.0" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1400.0" y="473.125" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1400.0" y="487.25" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1400.0" y="501.375" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1400.0" y="515.5" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1400.0" y="529.625" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1400.0" y="543.75" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1400.0" y="557.875" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1417.5714285714287" y="459.0" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1417.5714285714287" y="473.125" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1417.5714285714287" y="487.25" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1417.5714285714287" y="501.375" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1417.5714285714287" y="515.5" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1417.5714285714287" y="529.625" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1417.5714285714287" y="543.75" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1417.5714285714287" y="557.875" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1435.142857142857" y="459.0" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1435.142857142857" y="473.125" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1435.142857142857" y="487.25" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1435.142857142857" y="501.375" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1435.142857142857" y="515.5" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1435.142857142857" y="529.625" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1435.142857142857" y="543.75" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1435.142857142857" y="557.875" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1452.7142857142858" y="459.0" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1452.7142857142858" y="473.125" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1452.7142857142858" y="487.25" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1452.7142857142858" y="501.375" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1452.7142857142858" y="515.5" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1452.7142857142858" y="529.625" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1452.7142857142858" y="543.75" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1452.7142857142858" y="557.875" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1470.2857142857142" y="459.0" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1470.2857142857142" y="473.125" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1470.2857142857142" y="487.25" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1470.2857142857142" y="501.375" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1470.2857142857142" y="515.5" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1470.2857142857142" y="529.625" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1470.2857142857142" y="543.75" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1470.2857142857142" y="557.875" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1487.857142857143" y="459.0" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1487.857142857143" y="473.125" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1487.857142857143" y="487.25" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1487.857142857143" y="501.375" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1487.857142857143" y="515.5" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1487.857142857143" y="529.625" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1487.857142857143" y="543.75" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1487.857142857143" y="557.875" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1505.4285714285716" y="459.0" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1505.4285714285716" y="473.125" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1505.4285714285716" y="487.25" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1505.4285714285716" y="501.375" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1505.4285714285716" y="515.5" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1505.4285714285716" y="529.625" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1505.4285714285716" y="543.75" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<rect x="1505.4285714285716" y="557.875" width="14.571428571428573" height="11.125" rx="0" fill="#F2EDF7" stroke="#F2EDF7" stroke-width="1"/>
+<g aria-label="28 日 × 7 通道">
+<text x="1381.750" y="644.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#806498">28 日 × 7 通道</text>
+</g>
+<g aria-label="总量 A + 6 分项">
+<text x="1380.500" y="681.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">总量 A + 6 分项</text>
+</g>
+<g aria-label="送入融合树 (a)">
+<text x="1388.250" y="717.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">送入融合树 (a)</text>
+</g>
+<polyline points="45,926 1555,926" fill="none" stroke="#D9DEE4" stroke-width="1.1" stroke-linejoin="round"/>
+<g aria-label="源年窗口与目标春节相位一致（−16 至 +11）；5 日归一化与水平校准均在去温度影响电量上进行。">
+<text x="45.000" y="960.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">源年窗口与目标春节相位一致（−16 至 +11）；5 日归一化与水平校准均在去温度影响电量上进行。</text>
+</g>
+<g aria-label="相位 −2 至 +6 保留原曲线，其余用 7 日平滑；+7 起渐进加入法定假期结束时间对齐，最高占 50%。">
+<text x="45.000" y="988.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">相位 −2 至 +6 保留原曲线，其余用 7 日平滑；+7 起渐进加入法定假期结束时间对齐，最高占 50%。</text>
+</g>
+</svg>

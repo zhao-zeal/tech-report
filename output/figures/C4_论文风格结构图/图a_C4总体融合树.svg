@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img"><title>C4 总体结构：两级融合树</title><rect width="1600" height="1000" fill="white"/>
+<g aria-label="(a)  C4 总体结构：两级融合树">
+<text x="45.000" y="60.450" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="35.000" font-weight="700" fill="#222C38">(a)  C4 总体结构：两级融合树</text>
+</g>
+<g aria-label="箭头自下而上表示计算方向；颜色对应 Ridge、春节模板与最终融合。">
+<text x="45.000" y="102.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">箭头自下而上表示计算方向；颜色对应 Ridge、春节模板与最终融合。</text>
+</g>
+<polyline points="45,122 1555,122" fill="none" stroke="#D9DEE4" stroke-width="1.3" stroke-linejoin="round"/>
+<polyline points="345,404 345,285 680,285 680,244" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="680.00,244.00 675.20,254.00 684.80,254.00" fill="#386D9F"/>
+<polyline points="1110,328 1110,285 920,285 920,244" fill="none" stroke="#347A6C" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="920.00,244.00 915.20,254.00 924.80,254.00" fill="#347A6C"/>
+<polyline points="345,648 345,518" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="345.00,518.00 340.20,528.00 349.80,528.00" fill="#386D9F"/>
+<polyline points="185,820 185,768 290,768 290,734" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="290.00,734.00 285.20,744.00 294.80,744.00" fill="#386D9F"/>
+<polyline points="500,820 500,768 400,768 400,734" fill="none" stroke="#386D9F" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="400.00,734.00 395.20,744.00 404.80,744.00" fill="#386D9F"/>
+<polyline points="790,557 790,488 1080,488 1080,390" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1080.00,390.00 1075.20,400.00 1084.80,400.00" fill="#806498"/>
+<polyline points="1220,568 1220,488 1140,488 1140,390" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1140.00,390.00 1135.20,400.00 1144.80,400.00" fill="#806498"/>
+<polyline points="790,795 790,651" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="790.00,651.00 785.20,661.00 794.80,661.00" fill="#806498"/>
+<polyline points="950,795 950,721" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1060,795 1060,721" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1170,795 1170,721" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1280,795 1280,721" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1390,795 1390,721" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1500,795 1500,721" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="950,721 1500,721" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1220,721 1220,633" fill="none" stroke="#806498" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1220.00,633.00 1215.20,643.00 1224.80,643.00" fill="#806498"/>
+<rect x="465.0" y="156" width="670" height="88" rx="8" fill="#EDF5F1" stroke="#347A6C" stroke-width="1.6"/>
+<g aria-label="最终日用电量预测">
+<text x="684.000" y="194.730" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29.000" font-weight="700" fill="#347A6C">最终日用电量预测</text>
+</g>
+<g aria-label="ŷ = Clip(0.15R + 0.85T, 0, U_{c})">
+<text x="629.262" y="232.250" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="400" fill="#627080">ŷ = Clip(0.15R + 0.85T, 0, U</text>
+<text x="953.238" y="238.160" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="18.000" font-weight="400" fill="#627080">c</text>
+<text x="962.238" y="232.250" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="400" fill="#627080">)</text>
+</g>
+<rect x="489.25" y="269" width="91.5" height="33" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="× 0.15">
+<text x="497.250" y="293.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="400" fill="#386D9F">× 0.15</text>
+</g>
+<rect x="1009.25" y="269" width="91.5" height="33" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="× 0.85">
+<text x="1017.250" y="293.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="400" fill="#347A6C">× 0.85</text>
+</g>
+<rect x="142.5" y="404" width="405" height="114" rx="8" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="R：分城市 Ridge">
+<text x="230.000" y="455.730" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29.000" font-weight="700" fill="#386D9F">R：分城市 Ridge</text>
+</g>
+<g aria-label="10 个独立模型 · α = 30">
+<text x="219.500" y="492.380" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24.000" font-weight="400" fill="#627080">10 个独立模型 · α = 30</text>
+</g>
+<g aria-label="T：模板融合">
+<text x="1236.750" y="367.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#347A6C">T：模板融合</text>
+</g>
+<circle cx="1110" cy="360" r="32" fill="#EDF5F1" stroke="#347A6C" stroke-width="1.7"/>
+<g aria-label="Σ">
+<text x="1101.250" y="370.470" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31.000" font-weight="400" fill="#347A6C">Σ</text>
+</g>
+<rect x="863.75" y="472" width="72.5" height="31" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="× 0.5">
+<text x="871.750" y="495.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#806498">× 0.5</text>
+</g>
+<rect x="1200.75" y="472" width="72.5" height="31" rx="2" fill="white" stroke="white" stroke-width="1.7"/>
+<g aria-label="× 0.5">
+<text x="1208.750" y="495.010" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="400" fill="#806498">× 0.5</text>
+</g>
+<rect x="667.5" y="557" width="245" height="94" rx="8" fill="#F2EDF7" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="A：总量模板">
+<text x="712.250" y="613.990" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27.000" font-weight="700" fill="#806498">A：总量模板</text>
+</g>
+<g aria-label="B：六分项求和">
+<text x="1323.000" y="606.620" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26.000" font-weight="700" fill="#806498">B：六分项求和</text>
+</g>
+<circle cx="1220" cy="601" r="32" fill="#F2EDF7" stroke="#806498" stroke-width="1.7"/>
+<g aria-label="Σ">
+<text x="1211.250" y="611.470" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31.000" font-weight="400" fill="#806498">Σ</text>
+</g>
+<rect x="142.5" y="648" width="405" height="86" rx="8" fill="white" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="146 维特征">
+<text x="272.500" y="685.360" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28.000" font-weight="700" fill="#386D9F">146 维特征</text>
+</g>
+<g aria-label="结构见图 (b)">
+<text x="283.250" y="720.140" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">结构见图 (b)</text>
+</g>
+<rect x="65.0" y="820" width="240" height="71" rx="8" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="历史负荷">
+<text x="135.000" y="864.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#386D9F">历史负荷</text>
+</g>
+<rect x="365.0" y="820" width="270" height="71" rx="8" fill="#EAF1F8" stroke="#386D9F" stroke-width="1.6"/>
+<g aria-label="日历与气象特征">
+<text x="412.500" y="864.750" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#386D9F">日历与气象特征</text>
+</g>
+<rect x="695.0" y="795" width="190" height="104" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="全社会总量">
+<text x="727.500" y="840.250" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25.000" font-weight="700" fill="#806498">全社会总量</text>
+</g>
+<g aria-label="j = 1">
+<text x="765.750" y="874.640" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22.000" font-weight="400" fill="#627080">j = 1</text>
+</g>
+<rect x="898.5" y="795" width="103" height="104" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="第一">
+<text x="927.000" y="823.510" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#806498">第一</text>
+</g>
+<g aria-label="产业">
+<text x="930.000" y="855.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">产业</text>
+</g>
+<g aria-label="j = 3">
+<text x="928.000" y="887.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">j = 3</text>
+</g>
+<rect x="1008.5" y="795" width="103" height="104" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="第二">
+<text x="1037.000" y="823.510" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#806498">第二</text>
+</g>
+<g aria-label="产业">
+<text x="1040.000" y="855.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">产业</text>
+</g>
+<g aria-label="j = 4">
+<text x="1038.000" y="887.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">j = 4</text>
+</g>
+<rect x="1118.5" y="795" width="103" height="104" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="第三">
+<text x="1147.000" y="823.510" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#806498">第三</text>
+</g>
+<g aria-label="产业">
+<text x="1150.000" y="855.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">产业</text>
+</g>
+<g aria-label="j = 5">
+<text x="1148.000" y="887.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">j = 5</text>
+</g>
+<rect x="1228.5" y="795" width="103" height="104" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="居民">
+<text x="1257.000" y="823.510" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#806498">居民</text>
+</g>
+<g aria-label="生活">
+<text x="1260.000" y="855.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">生活</text>
+</g>
+<g aria-label="j = 6">
+<text x="1258.000" y="887.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">j = 6</text>
+</g>
+<rect x="1338.5" y="795" width="103" height="104" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="趸售">
+<text x="1367.000" y="839.510" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#806498">趸售</text>
+</g>
+<g aria-label="j = 9">
+<text x="1368.000" y="871.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">j = 9</text>
+</g>
+<rect x="1448.5" y="795" width="103" height="104" rx="8" fill="white" stroke="#806498" stroke-width="1.6"/>
+<g aria-label="其他">
+<text x="1477.000" y="823.510" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23.000" font-weight="700" fill="#806498">其他</text>
+</g>
+<g aria-label="分项">
+<text x="1480.000" y="855.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">分项</text>
+</g>
+<g aria-label="j = 10">
+<text x="1472.250" y="887.900" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">j = 10</text>
+</g>
+<polyline points="45,926 1555,926" fill="none" stroke="#D9DEE4" stroke-width="1.1" stroke-linejoin="round"/>
+<g aria-label="A 与 6 个分项来自温度修正春节模板，详见图 (c)、(d)；两级权重在整个 28 日预测期内固定。">
+<text x="45.000" y="960.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">A 与 6 个分项来自温度修正春节模板，详见图 (c)、(d)；两级权重在整个 28 日预测期内固定。</text>
+</g>
+<g aria-label="Uc = 1.5 × 城市历史电量的 99.9% 分位数；“其他分项”指其他及无行业分类。输出共 10 × 28 = 280 条。">
+<text x="45.000" y="988.400" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20.000" font-weight="400" fill="#627080">Uc = 1.5 × 城市历史电量的 99.9% 分位数；“其他分项”指其他及无行业分类。输出共 10 × 28 = 280 条。</text>
+</g>
+</svg>
